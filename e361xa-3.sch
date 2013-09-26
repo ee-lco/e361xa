@@ -936,7 +936,7 @@ refdes=U20
 T 49000 45500 5 16 1 1 0 2 1
 value=LM393N
 T 47000 45000 5 10 0 0 0 0 1
-devmap=Fairchild/LM393N-1.
+devmap=Fairchild/LM393N-1
 T 47000 45000 5 10 0 0 0 0 1
 slotdef=1:3,2,8,4,1
 T 47000 45000 5 10 0 0 0 0 1
