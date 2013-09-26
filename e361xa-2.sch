@@ -796,7 +796,7 @@ slotdef=3:9,8,14
 T 50500 38500 5 10 0 0 0 0 1
 slotdef=4:11,10,13
 T 50500 38500 5 10 0 0 0 0 1
-devmap=Fairchild/LM339N
+devmap=Fairchild/LM339N-4
 }
 C 45000 37100 1 0 0 resistor-1.sym
 {
@@ -883,7 +883,7 @@ slotdef=4:10,9,8
 T 68000 62000 5 10 0 0 0 6 1
 slot=1
 T 68000 62000 5 10 0 0 0 0 1
-devmap=TI/LF347BN
+devmap=TI/LF347BN-1
 }
 C 50200 43200 1 180 0 opamp-no-supply-1.sym
 {
@@ -906,7 +906,7 @@ slotdef=4:10,9,8
 T 50200 43200 5 10 0 0 180 0 1
 slot=2
 T 50200 43200 5 10 0 0 0 0 1
-devmap=TI/LF347BN
+devmap=TI/LF347BN-2
 }
 C 54500 48800 1 0 1 opamp-no-supply-1.sym
 {
@@ -929,7 +929,7 @@ slotdef=4:10,9,8
 T 54500 48800 5 10 0 0 0 6 1
 slot=3
 T 54500 48800 5 10 0 0 0 0 1
-devmap=TI/LF347BN
+devmap=TI/LF347BN-3
 }
 C 93000 64400 1 180 0 opamp-no-supply-1.sym
 {
@@ -952,7 +952,7 @@ slotdef=4:10,9,8
 T 93000 64400 5 10 0 0 180 0 1
 slot=4
 T 93000 64400 5 10 0 0 0 0 1
-devmap=TI/LF347BN
+devmap=TI/LF347BN-4
 }
 C 47100 44600 1 0 0 capacitor-1.sym
 {
@@ -1301,7 +1301,15 @@ refdes=U16
 T 72300 50700 5 16 1 1 0 0 1
 value=LM393N
 T 70500 49000 5 10 0 0 0 0 1
-devmap=Fairchild/LM393N
+devmap=Fairchild/LM393N-1
+T 70500 49000 5 10 0 0 0 0 1
+slotdef=1:3,2,8,4,1
+T 70500 49000 5 10 0 0 0 0 1
+slotdef=2:5,6,7
+T 70500 49000 5 10 0 0 0 0 1
+numslots=2
+T 71500 49900 5 10 0 0 0 0 1
+slot=1
 }
 C 70500 46000 1 180 1 opamp-no-supply-1.sym
 {
@@ -1312,7 +1320,15 @@ refdes=U16
 T 72300 45300 5 16 1 1 0 0 1
 value=LM393N
 T 70500 46000 5 10 0 0 0 0 1
-devmap=Fairchild/LM393N
+devmap=Fairchild/LM393N-2
+T 70500 46000 5 10 0 0 0 0 1
+slotdef=1:3,2,8,4,1
+T 70500 46000 5 10 0 0 0 0 1
+slotdef=2:5,6,7
+T 70500 46000 5 10 0 0 0 0 1
+numslots=2
+T 71000 44800 5 10 0 0 0 0 1
+slot=2
 }
 C 71200 51700 1 0 0 15V-plus-1.sym
 {

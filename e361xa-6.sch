@@ -108,7 +108,7 @@ refdes=CR16
 T 34300 58900 5 16 1 1 0 3 1
 value=UF4004
 T 33500 57900 5 10 0 0 0 0 1
-devmap=VishayUF4004-E3/54
+devmap=Vishay/UF4004-E3-54
 }
 C 36500 60000 1 0 0 triac-driver-1.sym
 {
@@ -177,7 +177,7 @@ refdes=CR17
 T 34300 63400 5 16 1 1 0 3 1
 value=UF4004
 T 33500 62400 5 10 0 0 0 0 1
-devmap=VishayUF4004-E3/54
+devmap=Vishay/UF4004-E3-54
 }
 C 38700 59200 1 0 0 nc-bottom-1.sym
 {
@@ -250,7 +250,7 @@ refdes=CR8
 T 34300 50400 5 16 1 1 0 3 1
 value=UF4004
 T 33500 49400 5 10 0 0 0 0 1
-devmap=VishayUF4004-E3/54
+devmap=Vishay/UF4004-E3-54
 }
 N 27000 50000 33500 50000 4
 N 38000 46500 38000 47000 4
@@ -302,7 +302,7 @@ refdes=CR9
 T 34300 45900 5 16 1 1 0 3 1
 value=UF4004
 T 33500 44900 5 10 0 0 0 0 1
-devmap=VishayUF4004-E3/54
+devmap=Vishay/UF4004-E3-54
 }
 N 38000 42000 38000 42500 4
 C 38700 41700 1 0 0 nc-bottom-1.sym

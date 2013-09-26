@@ -8,7 +8,15 @@ refdes=U2
 T 67500 50600 5 16 1 1 0 2 1
 value=LM358
 T 65500 50000 5 10 0 0 0 0 1
-devmap=Fairchild/LM358N
+devmap=Fairchild/LM358N-1
+T 65500 50000 5 10 0 0 0 0 1
+slotdef=1:3,2,8,4,1
+T 65500 50000 5 10 0 0 0 0 1
+slotdef=2:5,6,7
+T 65500 50000 5 10 0 0 0 0 1
+numslots=2
+T 65500 50000 5 10 0 0 0 0 1
+slot=1
 }
 C 75000 55000 1 180 1 opamp-no-supply-1.sym
 {
@@ -19,7 +27,15 @@ refdes=U2
 T 77000 54100 5 16 1 1 180 8 1
 value=LM358
 T 75000 55000 5 10 0 0 0 0 1
-devmap=Fairchild/LM358N
+devmap=Fairchild/LM358N-2
+T 75000 55000 5 10 0 0 0 0 1
+slotdef=1:3,2,8,4,1
+T 75000 55000 5 10 0 0 0 0 1
+slotdef=2:5,6,7
+T 75000 55000 5 10 0 0 0 0 1
+numslots=2
+T 75000 55000 5 10 0 0 0 0 1
+slot=2
 }
 C 66200 55700 1 0 0 netname-2.sym
 {
@@ -390,7 +406,7 @@ value=UF4004
 T 45500 58600 5 10 0 0 90 0 1
 device=DIODE
 T 45600 58600 5 10 0 0 0 0 1
-devmap=Vishay/UF4004-E3/54
+devmap=Vishay/UF4004-E3-54
 }
 N 48000 57600 48000 58000 4
 N 48000 58000 43500 58000 4
@@ -494,7 +510,7 @@ value=UF4004
 T 39400 58500 5 10 0 0 0 6 1
 device=DIODE
 T 39400 58400 5 10 0 0 0 0 1
-devmap=Vishay/UF4004-E3/54
+devmap=Vishay/UF4004-E3-54
 }
 N 39400 59000 41000 59000 4
 C 35500 58800 1 0 0 resistor-1.sym
@@ -546,7 +562,7 @@ refdes=CR16
 T 38600 57400 5 16 1 1 0 3 1
 value=UF4004
 T 39400 56400 5 10 0 0 0 0 1
-devmap=Vishay/UF4004-E3/54
+devmap=Vishay/UF4004-E3-54
 }
 N 39400 57000 41000 57000 4
 C 35500 56800 1 0 0 resistor-1.sym
@@ -769,7 +785,7 @@ refdes=CR11
 T 45500 43100 5 16 1 1 0 0 1
 value=UF4004
 T 45600 42600 5 10 0 0 0 0 1
-devmap=Vishay/UF4004-E3/54
+devmap=Vishay/UF4004-E3-54
 }
 N 48000 41600 48000 42000 4
 N 48000 42000 43500 42000 4
@@ -873,7 +889,7 @@ refdes=CR8
 T 38600 43400 5 16 1 1 0 3 1
 value=UF4004
 T 39400 42400 5 10 0 0 0 0 1
-devmap=Vishay/UF4004-E3/54
+devmap=Vishay/UF4004-E3-54
 }
 N 39400 43000 41000 43000 4
 C 35500 42800 1 0 0 resistor-1.sym
@@ -925,7 +941,7 @@ refdes=CR9
 T 38600 41400 5 16 1 1 0 3 1
 value=UF4004
 T 39400 40400 5 10 0 0 0 0 1
-devmap=Vishay/UF4004-E3/54
+devmap=Vishay/UF4004-E3-54
 }
 N 39400 41000 41000 41000 4
 C 35500 40800 1 0 0 resistor-1.sym
