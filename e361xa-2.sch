@@ -133,7 +133,7 @@ refdes=CR13
 T 11650 48300 5 10 1 1 0 0 1
 value=GBU8J
 T 9250 46700 5 10 0 0 0 0 1
-devmap=TODO
+devmap=Fairchild/GBU8J
 }
 N 15000 37300 15000 58500 4
 N 6000 48000 9250 48000 4
@@ -152,7 +152,7 @@ refdes=CR18
 T 6700 55800 5 16 1 1 0 0 1
 value=MCR264-4
 T 6500 55700 5 10 0 0 0 0 1
-devmap=TODO
+devmap=ST/TYN640RG
 }
 N 6000 52000 7000 52000 4
 N 8400 52000 11500 52000 4
@@ -256,7 +256,7 @@ refdes=CR15
 T 11200 55800 5 16 1 1 0 0 1
 value=MCR264-4
 T 11000 55700 5 10 0 0 0 0 1
-devmap=TODO
+devmap=ST/TYN640RG
 }
 N 12900 52000 15000 52000 4
 C 11500 56600 1 0 0 capacitor-1.sym
@@ -341,7 +341,7 @@ refdes=CR10
 T 7200 42800 5 16 1 1 0 0 1
 value=MCR264-4
 T 7000 42700 5 10 0 0 0 0 1
-devmap=TODO
+devmap=ST/TYN640RG
 }
 C 11500 42700 1 180 1 scr-1.sym
 {
@@ -352,7 +352,7 @@ refdes=CR12
 T 11700 42800 5 16 1 1 0 0 1
 value=MCR264-4
 T 11500 42700 5 10 0 0 0 0 1
-devmap=TODO
+devmap=ST/TYN640RG
 }
 N 10500 39500 10500 44500 4
 N 13000 53700 13000 53500 4
@@ -392,7 +392,7 @@ refdes=Q2
 T 37000 54300 5 16 1 1 0 5 1
 value=2N2222A
 T 38100 56700 5 10 0 0 0 0 1
-devmap=TODO
+devmap=Fairchild/PN2222ATA
 }
 C 31800 56500 1 270 0 resistor-1.sym
 {
@@ -403,7 +403,7 @@ value=100
 T 31600 56500 5 10 0 0 270 0 1
 device=RESISTOR
 T 31800 56500 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC1000F
 }
 N 32000 56500 32000 56800 4
 N 32000 55100 32000 55000 4
@@ -419,7 +419,7 @@ value=31.6k
 T 32600 54800 5 10 0 0 270 0 1
 device=RESISTOR
 T 32800 54800 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC3162F
 }
 N 33000 54800 33000 55000 4
 C 30600 54800 1 270 0 capacitor-1.sym
@@ -431,7 +431,7 @@ value=0.1u
 T 30400 54800 5 10 0 0 270 0 1
 device=CAPACITOR
 T 30600 54800 5 10 0 0 0 0 1
-devmap=TODO
+devmap=TDK/FK18X7R1H104K
 }
 N 31000 54800 31000 55000 4
 N 31000 53400 31000 53000 4
@@ -453,7 +453,7 @@ value=100k
 T 38600 56900 5 10 0 0 270 0 1
 device=RESISTOR
 T 38800 56900 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC1003F
 }
 N 39000 48000 39000 55500 4
 N 39000 55000 38100 55000 4
@@ -501,7 +501,7 @@ refdes=Q3
 T 37000 47300 5 16 1 1 0 5 1
 value=2N2222A
 T 38100 49700 5 10 0 0 0 0 1
-devmap=TODO
+devmap=Fairchild/PN2222ATA
 }
 C 31800 49600 1 270 0 resistor-1.sym
 {
@@ -512,7 +512,7 @@ refdes=R5
 T 32400 48800 5 16 1 1 0 2 1
 value=100
 T 31800 49600 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC1000F
 }
 N 32000 49600 32000 49800 4
 N 32000 48200 32000 48000 4
@@ -528,7 +528,7 @@ refdes=R7
 T 33400 47000 5 16 1 1 0 2 1
 value=31.6k
 T 32800 47800 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC3162F
 }
 N 33000 47800 33000 48000 4
 C 30600 47800 1 270 0 capacitor-1.sym
@@ -540,7 +540,7 @@ refdes=C3
 T 31200 46800 5 16 1 1 0 2 1
 value=0.1u
 T 30600 47800 5 10 0 0 0 0 1
-devmap=TODO
+devmap=TDK/FK18X7R1H104K
 }
 N 31000 47800 31000 48000 4
 N 31000 46400 31000 46000 4
@@ -667,7 +667,7 @@ refdes=Q9
 T 32000 38800 5 16 1 1 0 2 1
 value=2N4036
 T 32500 41100 5 10 0 0 0 0 1
-devmap=TODO
+devmap=Fairchild/BC640TA
 }
 C 32500 42300 1 0 0 resistor-1.sym
 {
@@ -678,7 +678,7 @@ refdes=R65
 T 33200 42800 5 16 1 1 0 3 1
 value=1.21k
 T 32500 42300 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC1211F
 }
 C 35300 42000 1 270 0 resistor-1.sym
 {
@@ -689,7 +689,7 @@ refdes=R67
 T 35900 41200 5 16 1 1 0 2 1
 value=5.11k
 T 35300 42000 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC5111F
 }
 N 30800 41100 30800 42500 4
 N 29500 42500 32500 42500 4
@@ -712,7 +712,7 @@ refdes=R66
 T 33700 40300 5 16 1 1 0 3 1
 value=1k
 T 33000 39800 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC1001F
 }
 N 33000 40000 32500 40000 4
 N 35500 40600 35500 40000 4
@@ -762,7 +762,7 @@ slotdef=3:9,8,14
 T 50500 38500 5 10 0 0 0 0 1
 slotdef=4:11,10,13
 T 50500 38500 5 10 0 0 0 0 1
-devmap=TODO
+devmap=Fairchild/LM339N
 }
 C 45000 37100 1 0 0 resistor-1.sym
 {
@@ -773,18 +773,18 @@ refdes=R19
 T 45700 37600 5 16 1 1 0 3 1
 value=1.96k
 T 45000 37100 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC1961F
 }
 C 52800 39100 1 270 0 resistor-1.sym
 {
 T 52600 39100 5 10 0 0 270 0 1
 device=RESISTOR
 T 53395 38500 5 16 1 1 0 0 1
-refdes=R10
+refdes=R18
 T 53400 38300 5 16 1 1 0 2 1
 value=1k
 T 52800 39100 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC1001F
 }
 C 54000 36300 1 0 0 resistor-1.sym
 {
@@ -795,7 +795,7 @@ refdes=R17
 T 54700 36800 5 16 1 1 0 3 1
 value=1k
 T 54000 36300 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC1001F
 }
 N 54000 36500 50500 36500 4
 N 53000 37700 53000 36500 4
@@ -849,7 +849,7 @@ slotdef=4:10,9,8
 T 68000 62000 5 10 0 0 0 6 1
 slot=1
 T 68000 62000 5 10 0 0 0 0 1
-devmap=TODO
+devmap=TI/LF347BN
 }
 C 50200 43200 1 180 0 opamp-no-supply-1.sym
 {
@@ -872,7 +872,7 @@ slotdef=4:10,9,8
 T 50200 43200 5 10 0 0 180 0 1
 slot=2
 T 50200 43200 5 10 0 0 0 0 1
-devmap=TODO
+devmap=TI/LF347BN
 }
 C 54500 48800 1 0 1 opamp-no-supply-1.sym
 {
@@ -895,7 +895,7 @@ slotdef=4:10,9,8
 T 54500 48800 5 10 0 0 0 6 1
 slot=3
 T 54500 48800 5 10 0 0 0 0 1
-devmap=TODO
+devmap=TI/LF347BN
 }
 C 93000 64400 1 180 0 opamp-no-supply-1.sym
 {
@@ -918,7 +918,7 @@ slotdef=4:10,9,8
 T 93000 64400 5 10 0 0 180 0 1
 slot=4
 T 93000 64400 5 10 0 0 0 0 1
-devmap=TODO
+devmap=TI/LF347BN
 }
 C 47100 44600 1 0 0 capacitor-1.sym
 {
@@ -929,7 +929,7 @@ refdes=C36
 T 48100 45200 5 16 1 1 0 0 1
 value=2200p
 T 47100 44600 5 10 0 0 0 0 1
-devmap=TODO
+devmap=TDK/FK24C0G2A222J
 }
 C 48000 43600 1 0 0 capacitor-1.sym
 {
@@ -971,7 +971,7 @@ refdes=R87
 T 53700 43800 5 16 1 1 0 3 1
 value=316
 T 53000 43300 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC3160F
 }
 C 54300 43000 1 270 0 diode-1.sym
 {
@@ -982,7 +982,7 @@ value=1N645
 T 54400 43000 5 10 0 0 270 0 1
 device=DIODE
 T 54300 43000 5 10 0 0 0 0 1
-devmap=TODO
+devmap=MicroCommercial/6A4-TP
 }
 N 52500 43500 53000 43500 4
 N 50200 41200 55500 41200 4
@@ -998,7 +998,7 @@ refdes=R88
 T 56200 41500 5 16 1 1 0 3 1
 value=10k
 T 55500 41000 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC1002F
 }
 C 58100 41600 1 90 0 diode-1.sym
 {
@@ -1009,7 +1009,7 @@ value=1N645
 T 58000 41600 5 10 0 0 90 0 1
 device=DIODE
 T 58100 41600 5 10 0 0 0 0 1
-devmap=TODO
+devmap=MicroCommercial/6A4-TP
 }
 N 57500 43000 57500 43500 4
 N 56900 41200 62500 41200 4
@@ -1023,7 +1023,7 @@ refdes=C37
 T 59700 42000 5 16 1 1 0 2 1
 value=100p
 T 59100 43000 5 10 0 0 0 0 1
-devmap=TODO
+devmap=TDK/FK18C0G2A101J
 }
 N 59500 41600 59500 41200 4
 N 59500 43000 59500 43500 4
@@ -1036,7 +1036,7 @@ value=1N645
 T 41500 41500 5 10 0 0 0 0 1
 device=DIODE
 T 41500 41400 5 10 0 0 0 0 1
-devmap=TODO
+devmap=MicroCommercial/6A4-TP
 }
 C 41500 40600 1 0 0 capacitor-1.sym
 {
@@ -1047,7 +1047,7 @@ value=0.22u
 T 41895 40800 5 16 1 1 0 8 1
 refdes=C67
 T 41500 40600 5 10 0 0 0 0 1
-devmap=TODO
+devmap=TDK/FK18X7R1H224K
 }
 N 41500 41000 41000 41000 4
 N 41000 41000 41000 42000 4
@@ -1068,7 +1068,7 @@ value=1N645
 T 57500 48900 5 10 0 0 90 0 1
 device=DIODE
 T 57600 48900 5 10 0 0 0 0 1
-devmap=TODO
+devmap=MicroCommercial/6A4-TP
 }
 C 56700 48000 1 0 0 gnd-1.sym
 {
@@ -1087,7 +1087,7 @@ refdes=C30
 T 58800 49300 5 16 1 1 0 2 1
 value=0.01u
 T 58200 50300 5 10 0 0 0 0 1
-devmap=TODO
+devmap=TDK/FK18X7R2A103K
 }
 N 58600 50300 58600 50800 4
 C 58300 48000 1 0 0 gnd-1.sym
@@ -1105,7 +1105,7 @@ refdes=R68
 T 61400 49800 5 16 1 1 0 2 1
 value=46.4k
 T 60800 50600 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC4642F
 }
 C 63300 49800 1 270 0 resistor-1.sym
 {
@@ -1116,7 +1116,7 @@ refdes=R86
 T 63900 49000 5 16 1 1 0 2 1
 value=46.4k
 T 63300 49800 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC4642F
 }
 C 61800 48300 1 270 0 resistor-1.sym
 {
@@ -1127,7 +1127,7 @@ refdes=R80
 T 62400 47500 5 16 1 1 0 2 1
 value=100
 T 61800 48300 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC1000F
 }
 C 59800 48300 1 270 0 resistor-1.sym
 {
@@ -1138,7 +1138,7 @@ refdes=R81
 T 60400 47500 5 16 1 1 0 2 1
 value=19.6k
 T 59800 48300 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC1962F
 }
 N 60000 48300 60000 48800 4
 N 60000 48800 62000 48800 4
@@ -1155,7 +1155,7 @@ value=1N645
 T 64000 51300 5 10 0 0 90 0 1
 device=DIODE
 T 64100 51300 5 10 0 0 0 0 1
-devmap=TODO
+devmap=MicroCommercial/6A4-TP
 }
 C 63200 53000 1 0 0 netname-1.sym
 {
@@ -1257,7 +1257,7 @@ refdes=U16
 T 72300 50700 5 16 1 1 0 0 1
 value=LM393N
 T 70500 49000 5 10 0 0 0 0 1
-devmap=TODO
+devmap=Fairchild/LM393N
 }
 C 70500 46000 1 180 1 opamp-no-supply-1.sym
 {
@@ -1268,7 +1268,7 @@ refdes=U16
 T 72300 45300 5 16 1 1 0 0 1
 value=LM393N
 T 70500 46000 5 10 0 0 0 0 1
-devmap=TODO
+devmap=Fairchild/LM393N
 }
 C 71200 51700 1 0 0 15V-plus-1.sym
 {
@@ -1291,7 +1291,7 @@ refdes=R107
 T 67900 48700 5 16 1 1 0 2 1
 value=14.7k
 T 67300 49500 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC1472F
 }
 C 67300 46900 1 270 0 resistor-1.sym
 {
@@ -1302,7 +1302,7 @@ refdes=R106
 T 67900 46100 5 16 1 1 0 2 1
 value=31.6k
 T 67300 46900 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC3162F
 }
 N 67500 48100 67500 46900 4
 N 67500 47500 69500 47500 4
@@ -1398,7 +1398,7 @@ slotdef=12:12
 T 75300 44600 5 10 0 0 0 0 1
 slot=3
 T 75000 44900 5 16 1 1 0 6 1
-value=CC_LED
+comment=CC_LED
 T 75300 44600 5 10 0 0 0 0 1
 devmap=TODO
 }
@@ -1412,7 +1412,7 @@ value=1N645
 T 71600 62500 5 10 0 0 90 0 1
 device=DIODE
 T 71700 62500 5 10 0 0 0 0 1
-devmap=TODO
+devmap=MicroCommercial/6A4-TP
 }
 C 68900 63900 1 270 0 diode-1.sym
 {
@@ -1423,7 +1423,7 @@ value=1N645
 T 69000 63900 5 10 0 0 270 0 1
 device=DIODE
 T 68900 63900 5 10 0 0 0 0 1
-devmap=TODO
+devmap=MicroCommercial/6A4-TP
 }
 N 69500 63900 69500 64000 4
 N 68000 64000 77600 64000 4
@@ -1453,7 +1453,7 @@ refdes=C38
 T 68200 66700 5 16 1 1 0 2 1
 value=0.01u
 T 67600 67700 5 10 0 0 0 0 1
-devmap=TODO
+devmap=TDK/FK18X7R2A103K
 }
 C 67700 65700 1 0 0 gnd-1.sym
 {
@@ -1470,7 +1470,7 @@ refdes=C31
 T 65000 65200 5 16 1 1 0 0 1
 value=4700p
 T 64000 64600 5 10 0 0 0 0 1
-devmap=TODO
+devmap=Panasonic/ECW-HA3C472H
 }
 N 64000 65000 63000 65000 4
 N 63000 55500 63000 65000 4
@@ -1486,7 +1486,7 @@ refdes=C39
 T 68200 60200 5 16 1 1 0 2 1
 value=0.01u
 T 67600 61200 5 10 0 0 0 0 1
-devmap=TODO
+devmap=TDK/FK18X7R2A103K
 }
 C 67700 59200 1 0 0 gnd-1.sym
 {
@@ -1505,7 +1505,7 @@ refdes=R71
 T 70900 61200 5 16 1 1 0 2 1
 value=100k
 T 70300 62000 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC1003F
 }
 C 70300 60000 1 270 0 resistor-1.sym
 {
@@ -1516,7 +1516,7 @@ refdes=R71
 T 70900 59200 5 16 1 1 0 2 1
 value=100k
 T 70300 60000 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC1003F
 }
 C 70200 57700 1 0 0 gnd-1.sym
 {
@@ -1536,7 +1536,7 @@ refdes=R83
 T 73200 62700 5 16 1 1 0 3 1
 value=7.5k
 T 72500 62200 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC7501F
 }
 C 72200 65000 1 0 0 testpt-2.sym
 {
@@ -1598,7 +1598,7 @@ refdes=U10
 T 78300 63300 5 16 1 1 0 8 1
 value=LT1055CN8
 T 80200 62600 5 10 0 0 0 0 1
-devmap=TODO
+devmap=LT/LT1055CN8
 }
 C 78000 64700 1 0 0 nc-top-1.sym
 {
@@ -1634,7 +1634,7 @@ refdes=C34
 T 80700 68200 5 16 1 1 0 2 1
 value=0.01u
 T 80100 69200 5 10 0 0 0 0 1
-devmap=TODO
+devmap=TDK/FK18X7R2A103K
 }
 C 80200 67200 1 0 0 gnd-1.sym
 {
@@ -1658,7 +1658,7 @@ refdes=C32
 T 80700 60700 5 16 1 1 0 2 1
 value=0.01u
 T 80100 61700 5 10 0 0 0 0 1
-devmap=TODO
+devmap=TDK/FK18X7R2A103K
 }
 C 80200 59700 1 0 0 gnd-1.sym
 {
@@ -1677,7 +1677,7 @@ refdes=C33
 T 77500 67900 5 16 1 1 0 0 1
 value=1000p
 T 76500 67300 5 10 0 0 0 0 1
-devmap=TODO
+devmap=TDK/FK14C0G2A102J
 }
 C 76500 66000 1 0 0 resistor-1.sym
 {
@@ -1688,7 +1688,7 @@ refdes=R73
 T 77200 66500 5 16 1 1 0 3 1
 value=100k
 T 76500 66000 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC1003F
 }
 N 77900 66200 78500 66200 4
 N 78500 66200 78500 67700 4
@@ -1746,7 +1746,7 @@ refdes=R76
 T 85900 61200 5 16 1 1 0 2 1
 value=100k
 T 85300 62000 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC1003F
 }
 C 85200 59200 1 0 0 gnd-1.sym
 {
@@ -1771,7 +1771,7 @@ refdes=C35
 T 87700 61000 5 16 1 1 0 2 1
 value=1000p
 T 87100 62000 5 10 0 0 0 0 1
-devmap=TODO
+devmap=TDK/FK14C0G2A102J
 }
 N 84000 60600 84000 58000 4
 N 83000 56500 83000 60600 4
@@ -1784,7 +1784,7 @@ refdes=R89
 T 91200 66800 5 16 1 1 0 3 1
 value=46.4k
 T 90500 66300 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC4642F
 }
 N 93000 64000 94500 64000 4
 N 94000 64000 94000 66500 4
@@ -1803,7 +1803,7 @@ refdes=R91
 T 95200 64300 5 16 1 1 0 3 1
 value=46.4k
 T 94500 63800 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC4642F
 }
 C 94500 62200 1 0 0 resistor-1.sym
 {
@@ -1814,7 +1814,7 @@ refdes=R93
 T 95200 62700 5 16 1 1 0 3 1
 value=13.7k
 T 94500 62200 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC1372F
 }
 N 95900 62400 96700 62400 4
 C 96700 62100 1 0 0 10V-plus-2.sym
@@ -1843,7 +1843,7 @@ value=1N645
 T 96000 68000 5 10 0 0 90 2 1
 device=DIODE
 T 95900 68000 5 10 0 0 0 0 1
-devmap=TODO
+devmap=MicroCommercial/6A4-TP
 }
 C 95900 65600 1 270 1 diode-1.sym
 {
@@ -1854,7 +1854,7 @@ value=1N645
 T 96000 65600 5 10 0 0 90 2 1
 device=DIODE
 T 95900 65600 5 10 0 0 0 0 1
-devmap=TODO
+devmap=MicroCommercial/6A4-TP
 }
 C 96200 64700 1 0 0 gnd-1.sym
 {
@@ -1873,7 +1873,7 @@ refdes=R92
 T 98900 60200 5 16 1 1 0 2 1
 value=46.4k
 T 98300 61000 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC4642F
 }
 C 93800 61000 1 270 0 resistor-1.sym
 {
@@ -1884,7 +1884,7 @@ refdes=R90
 T 94400 60200 5 16 1 1 0 2 1
 value=10
 T 93800 61000 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC10R0F
 }
 C 93700 58700 1 0 0 gnd-1.sym
 {
@@ -1945,7 +1945,7 @@ value=FE6B
 T 81500 50600 5 10 0 0 90 0 1
 device=DIODE
 T 81600 50600 5 10 0 0 0 0 1
-devmap=TODO
+devmap=Vishay/VS-MUR820PBF
 }
 C 82600 52000 1 270 0 capacitor-1.sym
 {
@@ -1956,7 +1956,7 @@ refdes=C28
 T 83200 51000 5 16 1 1 0 2 1
 value=0.33u
 T 82600 52000 5 10 0 0 0 0 1
-devmap=TODO
+devmap=Panasonic/ECQ-E2334JF
 }
 C 84600 50600 1 0 0 capacitor-2.sym
 {
@@ -1986,7 +1986,7 @@ value=FE6B
 T 87500 50600 5 10 0 0 90 0 1
 device=DIODE
 T 87600 50600 5 10 0 0 0 0 1
-devmap=TODO
+devmap=Vishay/VS-MUR820PBF
 }
 C 89800 52000 1 270 0 resistor-1.sym
 {
@@ -1997,7 +1997,7 @@ refdes=R64
 T 90400 51200 5 16 1 1 0 2 1
 value=10k
 T 89800 52000 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC1002F
 }
 C 89800 49500 1 270 0 resistor-1.sym
 {
@@ -2008,7 +2008,7 @@ refdes=R63
 T 90400 48700 5 16 1 1 0 2 1
 value=1M
 T 89800 49500 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC1004F
 }
 C 89800 46000 1 270 0 resistor-1.sym
 {
@@ -2053,7 +2053,7 @@ refdes=C5
 T 94200 42500 5 16 1 1 0 2 1
 value=0.1u
 T 93600 43500 5 10 0 0 0 0 1
-devmap=TODO
+devmap=TDK/FK22X7R2J104K
 }
 C 93600 41000 1 270 0 capacitor-1.sym
 {
@@ -2064,7 +2064,7 @@ refdes=C4
 T 94200 40000 5 16 1 1 0 2 1
 value=0.1u
 T 93600 41000 5 10 0 0 0 0 1
-devmap=TODO
+devmap=TDK/FK22X7R2J104K
 }
 C 95900 40200 1 0 0 chassis-1.sym
 {
@@ -2095,7 +2095,7 @@ value=1N645
 T 41500 43500 5 10 0 0 0 0 1
 device=DIODE
 T 41500 43400 5 10 0 0 0 0 1
-devmap=TODO
+devmap=MicroCommercial/6A4-TP
 }
 N 41500 44000 40000 44000 4
 N 45000 42000 45000 55000 4
@@ -2231,7 +2231,7 @@ refdes=R61
 T 105700 71300 5 16 1 1 0 3 1
 value=2.61k
 T 105000 70800 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC2611F
 }
 N 106400 71000 107000 71000 4
 N 107000 66000 107000 71000 4
@@ -2307,7 +2307,7 @@ refdes=R126
 T 117200 65300 5 16 1 1 0 3 1
 value=100
 T 116500 64800 5 10 0 0 0 0 1
-devmap=TODO
+devmap=KOA-Speer/MF1_4DC1000F
 }
 N 116500 65000 116300 65000 4
 C 112100 61600 1 0 0 spdt-1.sym
