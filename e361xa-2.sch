@@ -2025,7 +2025,7 @@ value=FE6B
 T 81500 50600 5 10 0 0 90 0 1
 device=DIODE
 T 81600 50600 5 10 0 0 0 0 1
-devmap=Vishay/VS-MUR820PBF
+devmap=Vishay/VS-MUR820PbF
 }
 C 82600 52000 1 270 0 capacitor-1.sym
 {
@@ -2072,7 +2072,7 @@ value=FE6B
 T 87500 50600 5 10 0 0 90 0 1
 device=DIODE
 T 87600 50600 5 10 0 0 0 0 1
-devmap=Vishay/VS-MUR820PBF
+devmap=Vishay/VS-MUR820PbF
 }
 C 89800 52000 1 270 0 resistor-1.sym
 {
