@@ -156,11 +156,11 @@ C 26000 55800 1 0 0 resistor-1.sym
 T 26695 56600 5 16 1 1 0 3 1
 refdes=R10
 T 26700 56300 5 16 1 1 0 3 1
-value=10
+value=1
 T 26000 55600 5 10 0 0 0 0 1
 device=RESISTOR
 T 26000 55800 5 10 0 0 0 0 1
-devmap=Bourns/FW10A10R0JA
+devmap=Vishay/NFR25H0001008JA500
 }
 C 32600 53000 1 0 0 capacitor-2.sym
 {
@@ -361,9 +361,9 @@ device=RESISTOR
 T 26695 49100 5 16 1 1 0 3 1
 refdes=R108
 T 26700 48800 5 16 1 1 0 3 1
-value=10
+value=1
 T 26000 48300 5 10 0 0 0 0 1
-devmap=Bourns/FW10A10R0JA
+devmap=Vishay/NFR25H0001008JA500
 }
 C 23100 44900 1 0 0 transformer-2t-1.sym
 {
