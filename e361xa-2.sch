@@ -2870,7 +2870,7 @@ C 3400 51800 1 0 0 input-3.sym
 T 3400 51800 5 10 0 0 0 0 1
 device=INPUT
 T 3400 51800 5 10 0 0 0 0 1
-devmap=TODO
+devmap=Molex/39-29-9042
 T 3900 51900 5 16 1 1 0 2 1
 refdes=J7
 T 3900 52050 5 16 1 1 0 0 1
@@ -2889,7 +2889,7 @@ C 3400 50200 1 0 0 input-3.sym
 T 3400 50200 5 10 0 0 0 0 1
 device=INPUT
 T 3400 50200 5 10 0 0 0 0 1
-devmap=TODO
+devmap=Molex/39-29-9042
 T 3900 50300 5 16 1 1 0 2 1
 refdes=J7
 T 3900 50450 5 16 1 1 0 0 1
@@ -2908,7 +2908,7 @@ C 3400 47000 1 0 0 input-3.sym
 T 3400 47000 5 10 0 0 0 0 1
 device=INPUT
 T 3400 47000 5 10 0 0 0 0 1
-devmap=TODO
+devmap=Molex/39-29-9042
 T 3900 47100 5 16 1 1 0 2 1
 refdes=J7
 T 3900 47250 5 16 1 1 0 0 1
@@ -2927,10 +2927,10 @@ C 3400 43800 1 0 0 input-3.sym
 T 3400 43800 5 10 0 0 0 0 1
 device=INPUT
 T 3400 43800 5 10 0 0 0 0 1
-devmap=TODO
+devmap=Molex/39-29-9042
 T 3900 43900 5 16 1 1 0 2 1
 refdes=J7
 T 3900 44050 5 16 1 1 0 0 1
-slot=3
+slot=4
 }
 N 2800 44000 2500 44000 4
