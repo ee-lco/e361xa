@@ -234,11 +234,11 @@ N 41500 54400 41500 56500 4
 N 40300 56500 47500 56500 4
 N 41500 53000 41500 51000 4
 N 39000 55700 39000 51000 4
-C 36200 56700 1 0 0 netname-2.sym
+C 46200 58200 1 0 0 netname-2.sym
 {
-T 36500 57100 5 16 0 0 0 3 1
+T 46500 58600 5 16 0 0 0 3 1
 net=+5Va:1
-T 36500 57100 5 16 1 1 0 3 1
+T 46500 58600 5 16 1 1 0 3 1
 comment=+5Va
 }
 C 47500 56300 1 0 0 output-3.sym
@@ -273,7 +273,7 @@ T 41500 50400 5 16 1 1 0 5 1
 comment=OUTPUT+
 }
 N 41500 50800 41500 51000 4
-N 36500 56500 36500 56700 4
+N 36500 56500 36500 58000 4
 C 27000 48300 1 0 0 resistor-1.sym
 {
 T 27000 48100 5 10 0 0 0 0 1
@@ -672,7 +672,7 @@ device=OUTPUT
 T 67700 41500 5 16 1 1 0 1 1
 refdes=J1
 T 67100 41550 5 16 1 1 0 6 1
-slot=5
+slot=8
 T 67000 41300 5 10 0 0 0 0 1
 devmap=generic/PinHeader-6x2
 }
@@ -743,7 +743,7 @@ devmap=Fairchild/LM7805CT
 C 38700 47700 1 0 0 vreg-adj-1.sym
 {
 T 41000 49100 5 16 1 1 0 6 1
-refdes=U3
+refdes=U13
 T 39000 49100 5 16 1 1 0 0 1
 device=LM317T
 T 38700 47700 5 10 0 0 0 0 1
@@ -767,7 +767,7 @@ refdes=J2
 T 11400 48550 5 16 1 1 0 0 1
 slot=3
 T 10900 48300 5 10 0 0 0 0 1
-devmap=Molex/39-29-9042
+devmap=Molex/39-29-9062
 }
 N 11500 48500 12000 48500 4
 N 12000 48500 12000 47400 4
@@ -788,7 +788,7 @@ refdes=J2
 T 11400 50550 5 16 1 1 0 0 1
 slot=1
 T 10900 50300 5 10 0 0 0 0 1
-devmap=Molex/39-29-9042
+devmap=Molex/39-29-9062
 }
 C 10900 49300 1 0 0 input-3.sym
 {
@@ -799,7 +799,7 @@ refdes=J2
 T 11400 49550 5 16 1 1 0 0 1
 slot=2
 T 10900 49300 5 10 0 0 0 0 1
-devmap=Molex/39-29-9042
+devmap=Molex/39-29-9062
 }
 N 10300 50500 9300 50500 4
 C 10300 49300 1 0 0 output-3.sym
@@ -820,9 +820,9 @@ device=OUTPUT
 T 20100 46400 5 16 1 1 0 8 1
 refdes=J4
 T 20100 46550 5 16 1 1 0 6 1
-slot=1
+slot=2
 T 20000 46300 5 10 0 0 0 0 1
-devmap=Molex/39-29-9022
+devmap=Molex/39-29-9042
 }
 C 20600 46300 1 0 0 input-3.sym
 {
@@ -839,9 +839,9 @@ device=OUTPUT
 T 20100 44800 5 16 1 1 0 8 1
 refdes=J4
 T 20100 44950 5 16 1 1 0 6 1
-slot=2
+slot=1
 T 20000 44700 5 10 0 0 0 0 1
-devmap=Molex/39-29-9022
+devmap=Molex/39-29-9042
 }
 C 20600 44700 1 0 0 input-3.sym
 {
@@ -865,7 +865,7 @@ device=INPUT
 T 25400 54400 5 16 1 1 0 2 1
 refdes=J5
 T 25400 54550 5 16 1 1 0 0 1
-slot=2
+slot=3
 T 24900 54300 5 10 0 0 0 0 1
 devmap=Molex/39-29-9042
 }
@@ -905,7 +905,7 @@ devmap=Molex/39-29-9042
 T 25400 46400 5 16 1 1 0 2 1
 refdes=J5
 T 25400 46550 5 16 1 1 0 0 1
-slot=4
+slot=2
 }
 N 24300 46500 24000 46500 4
 C 24300 44700 1 0 0 output-3.sym
@@ -924,80 +924,80 @@ devmap=Molex/39-29-9042
 T 25400 44800 5 16 1 1 0 2 1
 refdes=J5
 T 25400 44950 5 16 1 1 0 0 1
-slot=3
+slot=4
 }
 N 24300 44900 24000 44900 4
 C 47500 55300 1 0 0 output-3.sym
 {
 T 47700 55100 5 10 0 0 0 0 1
-device=generic/PinHeader-8x1
+device=OUTPUT
 T 48200 55500 5 16 1 1 0 1 1
 refdes=J6
 T 47600 55550 5 16 1 1 0 6 1
 slot=1
 T 47500 55300 5 10 0 0 0 0 1
-devmap=generic/PinHeader-6x1
+devmap=generic/PinHeader-6x2
 }
 N 47500 55500 47000 55500 4
 N 47000 55500 47000 56500 4
 C 47500 51800 1 0 0 output-3.sym
 {
 T 47700 51600 5 10 0 0 0 0 1
-device=generic/PinHeader-8x1
+device=OUTPUT
 T 48200 52000 5 16 1 1 0 1 1
 refdes=J6
 T 47600 52050 5 16 1 1 0 6 1
-slot=2
+slot=3
 T 47500 51800 5 10 0 0 0 0 1
-devmap=generic/PinHeader-6x1
+devmap=generic/PinHeader-6x2
 }
 N 47500 52000 47000 52000 4
 N 47000 52000 47000 51000 4
 C 67000 48300 1 0 0 output-3.sym
 {
 T 67200 48100 5 10 0 0 0 0 1
-device=generic/PinHeader-8x1
+device=OUTPUT
 T 67700 48500 5 16 1 1 0 1 1
 refdes=J6
 T 67100 48550 5 16 1 1 0 6 1
-slot=3
+slot=6
 T 67000 48300 5 10 0 0 0 0 1
-devmap=generic/PinHeader-6x1
+devmap=generic/PinHeader-6x2
 }
 C 67000 44800 1 0 0 output-3.sym
 {
 T 67200 44600 5 10 0 0 0 0 1
-device=generic/PinHeader-8x1
+device=OUTPUT
 T 67700 45000 5 16 1 1 0 1 1
 refdes=J6
 T 67100 45050 5 16 1 1 0 6 1
-slot=5
+slot=11
 T 67000 44800 5 10 0 0 0 0 1
-devmap=generic/PinHeader-6x1
+devmap=generic/PinHeader-6x2
 }
 N 67000 45000 66500 45000 4
 N 66500 45000 66500 43800 4
 C 67000 39300 1 0 0 output-3.sym
 {
 T 67200 39100 5 10 0 0 0 0 1
-device=generic/PinHeader-8x1
+device=OUTPUT
 T 67700 39500 5 16 1 1 0 1 1
 refdes=J6
 T 67100 39550 5 16 1 1 0 6 1
-slot=6
+slot=7
 T 67000 39300 5 10 0 0 0 0 1
-devmap=generic/PinHeader-6x1
+devmap=generic/PinHeader-6x2
 }
 C 67000 36300 1 0 0 output-3.sym
 {
 T 67200 36100 5 10 0 0 0 0 1
-device=generic/PinHeader-8x1
+device=OUTPUT
 T 67700 36500 5 16 1 1 0 1 1
 refdes=J6
 T 67100 36550 5 16 1 1 0 6 1
-slot=8
+slot=9
 T 67000 36300 5 10 0 0 0 0 1
-devmap=generic/PinHeader-6x1
+devmap=generic/PinHeader-6x2
 }
 N 67000 39500 66500 39500 4
 N 66500 39500 66500 38500 4
@@ -1015,26 +1015,51 @@ N 63500 49000 63500 48500 4
 C 67000 47300 1 0 0 output-3.sym
 {
 T 67200 47100 5 10 0 0 0 0 1
-device=generic/PinHeader-8x1
+device=OUTPUT
 T 67000 47300 5 10 0 0 0 0 1
-devmap=generic/PinHeader-6x1
+devmap=generic/PinHeader-6x2
 T 67700 47500 5 16 1 1 0 1 1
 refdes=J6
 T 67100 47550 5 16 1 1 0 6 1
-slot=4
+slot=12
 }
 N 67000 47500 65500 47500 4
-C 65200 45700 1 0 0 gnd-1.sym
-C 67000 46300 1 0 0 output-3.sym
+N 65500 46500 67000 46500 4
+C 47500 57800 1 0 0 output-3.sym
 {
-T 67200 46100 5 10 0 0 0 0 1
-device=generic/PinHeader-8x1
-T 67000 46300 5 10 0 0 0 0 1
-devmap=generic/PinHeader-6x1
+T 47700 57600 5 10 0 0 0 0 1
+device=OUTPUT
+T 48200 58000 5 16 1 1 0 1 1
+refdes=J6
+T 47600 58050 5 16 1 1 0 6 1
+slot=2
+T 47500 57800 5 10 0 0 0 0 1
+devmap=generic/PinHeader-6x2
+}
+N 47500 58000 36500 58000 4
+N 46500 58200 46500 58000 4
+C 65500 46200 1 90 0 netname-1.sym
+{
+T 65100 46500 5 16 0 2 90 3 1
+net=B:1
+T 65100 46500 5 16 1 1 0 7 1
+comment=B
+}
+C 65500 47200 1 90 0 netname-1.sym
+{
+T 65100 47500 5 16 0 2 90 3 1
+net=A:1
+T 65100 47500 5 16 1 1 0 7 1
+comment=A
+}
+C 67600 46300 1 0 1 input-3.sym
+{
+T 67600 46300 5 10 0 0 0 6 1
+device=INPUT
 T 67700 46500 5 16 1 1 0 1 1
 refdes=J6
 T 67100 46550 5 16 1 1 0 6 1
-slot=7
+slot=5
+T 67600 46300 5 10 0 0 0 6 1
+devmap=generic/PinHeader-6x2
 }
-N 65500 46300 65500 47500 4
-N 65500 46500 67000 46500 4
