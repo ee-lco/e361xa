@@ -52,7 +52,7 @@ refdes=R94
 T 46200 58200 5 16 1 1 0 8 1
 value=10k
 T 45800 57600 5 10 0 0 0 0 1
-devmap=generic/Pot
+devmap=Murata/PV36W103C01B00
 }
 C 41700 57900 1 0 0 nc-left-1.sym
 {
@@ -358,7 +358,7 @@ refdes=R97
 T 57700 50200 5 16 1 1 0 8 1
 value=10k
 T 57300 49600 5 10 0 0 0 0 1
-devmap=generic/Pot
+devmap=Murata/PV36W103C01B00
 }
 N 58000 51000 58000 51600 4
 N 64600 58300 69700 58300 4
