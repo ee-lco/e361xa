@@ -514,7 +514,7 @@ C 32800 47800 1 270 0 resistor-1.sym
 T 32600 47800 5 10 0 0 270 0 1
 device=RESISTOR
 T 33395 47200 5 16 1 1 0 0 1
-refdes=R7
+refdes=R3
 T 33400 47000 5 16 1 1 0 2 1
 value=31.6k
 T 32800 47800 5 10 0 0 0 0 1
@@ -526,7 +526,7 @@ C 30600 47800 1 270 0 capacitor-1.sym
 T 30400 47800 5 10 0 0 270 0 1
 device=CAPACITOR
 T 31195 47400 5 16 1 1 0 0 1
-refdes=C3
+refdes=C1
 T 31200 46800 5 16 1 1 0 2 1
 value=0.1u
 T 30600 47800 5 10 0 0 0 0 1
@@ -1056,7 +1056,7 @@ N 56000 49200 54500 49200 4
 C 57600 48900 1 90 0 diode-1.sym
 {
 T 56595 49800 5 16 1 1 0 6 1
-refdes=CR28
+refdes=CR23
 T 56600 49600 5 16 1 1 0 8 1
 value=1N645
 T 57500 48900 5 10 0 0 90 0 1
@@ -1430,11 +1430,25 @@ C 70300 60000 1 270 0 resistor-1.sym
 T 70100 60000 5 10 0 0 270 0 1
 device=RESISTOR
 T 70895 59400 5 16 1 1 0 0 1
-refdes=R71
+refdes=R72
 T 70900 59200 5 16 1 1 0 2 1
-value=100k
+value=*
+T 70900 58600 5 16 1 1 0 0 1
+value=[14] 13.3k
+T 70900 58300 5 16 1 1 0 0 1
+value=[15] 6.19k
+T 70900 58000 5 16 1 1 0 0 1
+value=[16] 51.1k
+T 70900 57700 5 16 1 1 0 0 1
+value=[17] 26.1k
 T 70300 60000 5 10 0 0 0 0 1
-devmap=KOA-Speer/MF1_4DC1003F
+devmap=[14] KOA-Speer/MF1_4DC1332F
+T 70300 60000 5 10 0 0 0 0 1
+devmap=[15] KOA-Speer/MF1_4DC6191F
+T 70300 60000 5 10 0 0 0 0 1
+devmap=[16] KOA-Speer/MF1_4DC5112F
+T 70300 60000 5 10 0 0 0 0 1
+devmap=[17] KOA-Speer/MF1_4DC2612F
 }
 C 70200 57700 1 0 0 gnd-1.sym
 N 70500 60000 70500 60600 4
@@ -1498,7 +1512,7 @@ value=50k
 T 73600 55600 5 10 0 0 0 0 1
 device=VARIABLE_RESISTOR
 T 74300 58600 5 10 0 0 0 0 1
-devmap=TODO
+devmap=generic/Pot
 }
 N 75000 60000 75000 60600 4
 C 74700 57700 1 0 0 gnd-1.sym
@@ -1785,7 +1799,7 @@ value=10k
 T 97000 61500 5 10 0 0 0 0 1
 device=VARIABLE_RESISTOR
 T 99300 63300 5 10 0 0 0 0 1
-devmap=TODO
+devmap=generic/Pot
 }
 C 99700 64900 1 0 0 10V-plus-1.sym
 N 100000 64900 100000 64700 4
@@ -2124,7 +2138,7 @@ comment=SET SW
 T 113400 69100 5 10 0 0 0 0 1
 slot=1
 T 113400 69100 5 10 0 0 0 0 1
-devmap=TODO
+devmap=generic/Switch-DPDT
 }
 C 112000 66600 1 0 0 spdt-1.sym
 {
@@ -2135,7 +2149,7 @@ device=SWITCH
 T 112700 67400 5 16 1 1 0 6 1
 comment=M/S 1
 T 112000 66600 5 10 0 0 0 0 1
-devmap=TODO
+devmap=generic/Switch-SPDT
 }
 N 105000 67100 112000 67100 4
 N 113400 66700 114000 66700 4
@@ -2154,7 +2168,7 @@ device=SWITCH
 T 112800 64900 5 16 1 1 0 6 1
 comment=M/S 2
 T 112100 64100 5 10 0 0 0 0 1
-devmap=TODO
+devmap=generic/Switch-SPDT
 }
 N 106500 64600 112100 64600 4
 C 113700 63900 1 0 0 nc-right-1.sym
@@ -2189,7 +2203,7 @@ device=SWITCH
 T 112800 62400 5 16 1 1 0 6 1
 comment=CC L/R
 T 112100 61600 5 10 0 0 0 0 1
-devmap=TODO
+devmap=generic/Switch-SPDT
 }
 N 114000 63000 114000 62500 4
 N 114000 62500 113500 62500 4
@@ -2202,6 +2216,8 @@ T 117200 62200 5 10 0 0 270 2 1
 device=RESISTOR
 T 116400 61400 5 10 0 0 0 0 1
 devmap=TODO
+T 116400 61400 5 10 0 0 0 0 1
+footprint=R_AXIAL_400.fp
 }
 N 116000 61400 116000 61700 4
 C 115400 59000 1 0 0 chassis-1.sym
@@ -2239,7 +2255,7 @@ comment=SENSE
 T 112100 55600 5 10 0 0 0 0 1
 slot=2
 T 112100 55600 5 10 0 0 0 0 1
-devmap=TODO
+devmap=generic/Switch-DPDT
 }
 C 113700 55400 1 0 0 nc-right-1.sym
 {
@@ -2283,7 +2299,7 @@ comment=A1
 T 118600 66050 5 16 1 1 0 6 1
 slot=10
 T 118500 65800 5 10 0 0 0 0 1
-devmap=TODO
+devmap=generic/PinHeader-7x2
 }
 C 118500 64800 1 0 0 output-3.sym
 {
@@ -2296,7 +2312,7 @@ comment=Vref
 T 118600 65050 5 16 1 1 0 6 1
 slot=9
 T 118500 64800 5 10 0 0 0 0 1
-devmap=TODO
+devmap=generic/PinHeader-7x2
 }
 N 118500 65000 117900 65000 4
 C 118500 61500 1 0 0 output-3.sym
@@ -2310,7 +2326,7 @@ comment=CC+
 T 118600 61750 5 16 1 1 0 6 1
 slot=7
 T 118500 61500 5 10 0 0 0 0 1
-devmap=TODO
+devmap=generic/PinHeader-7x2
 }
 C 118500 60300 1 0 0 output-3.sym
 {
@@ -2323,7 +2339,7 @@ comment=CC-
 T 118600 60550 5 16 1 1 0 6 1
 slot=8
 T 118500 60300 5 10 0 0 0 0 1
-devmap=TODO
+devmap=generic/PinHeader-7x2
 }
 C 118500 58300 1 0 0 output-3.sym
 {
@@ -2336,7 +2352,7 @@ comment=+OUT
 T 118600 58550 5 16 1 1 0 6 1
 slot=2
 T 118500 58300 5 10 0 0 0 0 1
-devmap=TODO
+devmap=generic/PinHeader-7x2
 }
 C 118500 54800 1 0 0 output-3.sym
 {
@@ -2349,7 +2365,7 @@ comment=+S
 T 118600 55050 5 16 1 1 0 6 1
 slot=1
 T 118500 54800 5 10 0 0 0 0 1
-devmap=TODO
+devmap=generic/PinHeader-7x2
 }
 C 118500 53800 1 0 0 output-3.sym
 {
@@ -2362,7 +2378,7 @@ comment=CV-
 T 118600 54050 5 16 1 1 0 6 1
 slot=6
 T 118500 53800 5 10 0 0 0 0 1
-devmap=TODO
+devmap=generic/PinHeader-7x2
 }
 C 112100 51600 1 0 0 spdt-1.sym
 {
@@ -2373,7 +2389,7 @@ device=SWITCH
 T 112800 52400 5 16 1 1 0 6 1
 comment=CV L/R
 T 112100 51600 5 10 0 0 0 0 1
-devmap=TODO
+devmap=generic/Switch-SPDT
 }
 C 118500 52300 1 0 0 output-3.sym
 {
@@ -2386,7 +2402,7 @@ comment=CV+
 T 118600 52550 5 16 1 1 0 6 1
 slot=5
 T 118500 52300 5 10 0 0 0 0 1
-devmap=TODO
+devmap=generic/PinHeader-7x2
 }
 N 113500 52500 118500 52500 4
 C 116400 52200 1 90 1 varistor-1.sym
@@ -2415,7 +2431,7 @@ refdes=J3
 T 118600 51300 5 16 1 1 0 8 1
 comment=A2
 T 118500 51200 5 10 0 0 0 0 1
-devmap=TODO
+devmap=generic/PinHeader-7x2
 }
 C 118500 46800 1 0 0 output-3.sym
 {
@@ -2428,7 +2444,7 @@ refdes=J3
 T 118600 46900 5 16 1 1 0 8 1
 comment=A3
 T 118500 46800 5 10 0 0 0 0 1
-devmap=TODO
+devmap=generic/PinHeader-7x2
 }
 C 118500 45800 1 0 0 output-3.sym
 {
@@ -2441,7 +2457,7 @@ refdes=J3
 T 118600 45900 5 16 1 1 0 8 1
 comment=A4
 T 118500 45800 5 10 0 0 0 0 1
-devmap=TODO
+devmap=generic/PinHeader-7x2
 }
 N 113500 51700 114000 51700 4
 N 114000 51700 114000 47500 4
@@ -2471,7 +2487,7 @@ refdes=J3
 T 118600 42400 5 16 1 1 0 8 1
 comment=-S
 T 118500 42300 5 10 0 0 0 0 1
-devmap=TODO
+devmap=generic/PinHeader-7x2
 }
 C 118500 39800 1 0 0 output-3.sym
 {
@@ -2497,7 +2513,7 @@ refdes=J3
 T 118600 35900 5 16 1 1 0 8 1
 comment=A5
 T 118500 35800 5 10 0 0 0 0 1
-devmap=TODO
+devmap=generic/PinHeader-7x2
 }
 C 118500 34300 1 0 0 output-3.sym
 {
@@ -2510,7 +2526,7 @@ refdes=J3
 T 118600 34400 5 16 1 1 0 8 1
 comment=-OUT
 T 118500 34300 5 10 0 0 0 0 1
-devmap=TODO
+devmap=generic/PinHeader-7x2
 }
 N 118500 36000 115500 36000 4
 N 115500 34500 115500 36700 4
@@ -2535,7 +2551,7 @@ comment=SET SW
 T 113500 43500 5 10 0 0 0 0 1
 slot=2
 T 113500 43500 5 10 0 0 0 0 1
-devmap=TODO
+devmap=generic/Switch-DPDT
 }
 N 113500 44000 118500 44000 4
 C 111800 43300 1 90 0 netname-1.sym
@@ -2557,7 +2573,7 @@ comment=SENSE
 T 112100 40100 5 10 0 0 0 0 1
 slot=1
 T 112100 40100 5 10 0 0 0 0 1
-devmap=TODO
+devmap=generic/Switch-DPDT
 }
 C 113700 40700 1 0 0 nc-right-1.sym
 {
