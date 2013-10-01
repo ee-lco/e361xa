@@ -4433,6 +4433,19 @@ Element["" "R_AXIAL_400.fp" "R8" "1k" 206.0000mm 18.0000mm 60.00mil 80.00mil 0 1
 	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
 
 	)
+
+Element["" "R_AXIAL_2400.fp" "R59" "0.2" 500.0000mm 500.0000mm 320.00mil 240.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 2.1000mm 30.00mil 2.2500mm 1.2000mm "1" "1" "square,edge2"]
+	Pin[2400.00mil 0.0000 2.1000mm 30.00mil 2.2500mm 1.2000mm "2" "2" "edge2"]
+	ElementLine [0.0000 0.0000 300.00mil 0.0000 20.00mil]
+	ElementLine [300.00mil -200.00mil 300.00mil 200.00mil 20.00mil]
+	ElementLine [300.00mil -200.00mil 2100.00mil -200.00mil 20.00mil]
+	ElementLine [300.00mil 200.00mil 2100.00mil 200.00mil 20.00mil]
+	ElementLine [2100.00mil -200.00mil 2100.00mil 200.00mil 20.00mil]
+	ElementLine [2100.00mil 0.0000 2400.00mil 0.0000 20.00mil]
+
+	)
 Rat[17800.00mil 16200.00mil 0 17950.00mil 9900.00mil 5  ""]
 Rat[17950.00mil 9900.00mil 5 9950.00mil 5350.00mil 5  ""]
 Rat[9950.00mil 5350.00mil 5 9500.00mil 3600.00mil 5  ""]
