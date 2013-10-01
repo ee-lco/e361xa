@@ -5,7 +5,7 @@ FileVersion[20091103]
 
 PCB["E361xA" 500.0000mm 500.0000mm]
 
-Grid[10000.000000 0.0000 0.0000 0]
+Grid[3937.007874 0.0000 0.0000 0]
 PolyArea[3100.006200]
 Thermal[0.500000]
 DRC[8.00mil 10.00mil 8.00mil 10.00mil 15.00mil 10.00mil]
@@ -785,8 +785,8 @@ Symbol['~' 12.00mil]
 	SymbolLine[15.00mil 35.00mil 20.00mil 35.00mil 8.00mil]
 	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
 )
-Attribute("PCB::grid::unit" "mil")
-Attribute("PCB::grid::size" "100.00mil")
+Attribute("PCB::grid::unit" "mm")
+Attribute("PCB::grid::size" "1.0000mm")
 Via[15000.00mil 16200.00mil 60.00mil 20.00mil 0.0000 35.00mil "" ""]
 
 Element["" "R_AXIAL_400.fp" "R108" "1" 17400.00mil 15400.00mil -60.00mil -80.00mil 2 100 ""]
@@ -2435,29 +2435,6 @@ Element["" "C_RADIAL_200.fp" "C5" "0.1u" 377.4200mm 266.5400mm -30.00mil 120.00m
 
 	)
 
-Element["" "HEADER_12D_2.fp" "J1" "unknown" 200.00mil 200.00mil -30.00mil -140.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "1" "square"]
-	Pin[100.00mil 0.0000 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "2" ""]
-	Pin[0.0000 100.00mil 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "3" ""]
-	Pin[100.00mil 100.00mil 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "4" ""]
-	Pin[0.0000 200.00mil 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "5" ""]
-	Pin[100.00mil 200.00mil 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "6" ""]
-	Pin[0.0000 300.00mil 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "7" ""]
-	Pin[100.00mil 300.00mil 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "8" ""]
-	Pin[0.0000 400.00mil 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "9" ""]
-	Pin[100.00mil 400.00mil 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "10" ""]
-	Pin[0.0000 500.00mil 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "11" ""]
-	Pin[100.00mil 500.00mil 1.7000mm 30.00mil 1.8500mm 1.0000mm "" "12" ""]
-	ElementLine [-50.00mil -50.00mil 150.00mil -50.00mil 10.00mil]
-	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil -50.00mil 550.00mil 10.00mil]
-	ElementLine [150.00mil -50.00mil 150.00mil 550.00mil 10.00mil]
-	ElementLine [-50.00mil 550.00mil 150.00mil 550.00mil 10.00mil]
-
-	)
-
 Element["" "" "" "" 600.00mil 300.00mil -160.00mil -200.00mil 0 100 ""]
 (
 	Pin[0.0000 0.0000 7.7000mm 30.00mil 7.8500mm 3.4000mm "" "1" ""]
@@ -3368,8 +3345,6 @@ Element["" "D_DO_41.fp" "CR16" "UF4004" 8800.00mil 3500.00mil 120.00mil 80.00mil
 
 	)
 
-
-
 Element["" "R_AXIAL_400.fp" "R43" "100" 9150.00mil 5350.00mil 60.00mil 80.00mil 0 100 ""]
 (
 	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
@@ -3448,8 +3423,6 @@ Element["" "D_DO_41.fp" "CR8" "UF4004" 11850.00mil 5350.00mil 120.00mil 80.00mil
 	ElementLine [300.00mil 0.0000 400.00mil 0.0000 10.00mil]
 
 	)
-
-
 
 Element["" "DIP_14.fp" "U6" "LF347BN" 13300.00mil 2000.00mil -30.00mil -140.00mil 0 100 ""]
 (
@@ -3871,20 +3844,7 @@ Element["" "R_AXIAL_400.fp" "R28" "49.9k" 13450.00mil 1700.00mil 60.00mil 80.00m
 
 	)
 
-Element["" "R_AXIAL_400.fp" "R8" "1k" 500.0000mm 500.0000mm 60.00mil 80.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
-	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
-	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
-	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
-	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
-
-	)
-
-Element["" "R_AXIAL_2400.fp" "R58" "0.2" 500.0000mm 500.0000mm 320.00mil 240.00mil 0 100 ""]
+Element["" "R_AXIAL_2400.fp" "R58" "0.2" 223.0000mm 20.0000mm 320.00mil 240.00mil 0 100 ""]
 (
 	Pin[0.0000 0.0000 2.1000mm 30.00mil 2.2500mm 1.2000mm "1" "1" "square,edge2"]
 	Pin[2400.00mil 0.0000 2.1000mm 30.00mil 2.2500mm 1.2000mm "2" "2" "edge2"]
@@ -3897,514 +3857,45 @@ Element["" "R_AXIAL_2400.fp" "R58" "0.2" 500.0000mm 500.0000mm 320.00mil 240.00m
 
 	)
 
-Element["" "R_AXIAL_400.fp" "R9" "1k" 500.0000mm 500.0000mm 60.00mil 80.00mil 0 100 ""]
+Element["" "DIP_8.fp" "T3" "unknown" 71.0000mm 4.0000mm -30.00mil -140.00mil 0 100 ""]
 (
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
-	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
-	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
-	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
-	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square"]
+	Pin[0.0000 100.00mil 1.4000mm 30.00mil 1.5500mm 0.8000mm "" "2" ""]
+	Pin[0.0000 200.00mil 1.4000mm 30.00mil 1.5500mm 0.8000mm "" "3" ""]
+	Pin[0.0000 300.00mil 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "4" ""]
+	Pin[300.00mil 300.00mil 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "5" ""]
+	Pin[300.00mil 200.00mil 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "6" ""]
+	Pin[300.00mil 100.00mil 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "7" ""]
+	Pin[300.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "8" ""]
+	ElementLine [-50.00mil -50.00mil 100.00mil -50.00mil 10.00mil]
+	ElementLine [200.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil -50.00mil 350.00mil 10.00mil]
+	ElementLine [350.00mil -50.00mil 350.00mil 350.00mil 10.00mil]
+	ElementLine [-50.00mil 350.00mil 350.00mil 350.00mil 10.00mil]
+	ElementArc [150.00mil -50.00mil 50.00mil 50.00mil 0 180 10.00mil]
 
 	)
 
-Element["" "C_RADIAL_100.fp" "C29" "0.01u" 500.0000mm 500.0000mm -30.00mil 80.00mil 0 100 ""]
+Element["" "DIP_8.fp" "T2" "unknown" 84.0000mm 4.0000mm -30.00mil -140.00mil 0 100 ""]
 (
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
-	Pin[100.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
-	ElementLine [-50.00mil -50.00mil 150.00mil -50.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
-	ElementLine [150.00mil -50.00mil 150.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil 50.00mil 150.00mil 50.00mil 10.00mil]
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square"]
+	Pin[0.0000 100.00mil 1.4000mm 30.00mil 1.5500mm 0.8000mm "" "2" ""]
+	Pin[0.0000 200.00mil 1.4000mm 30.00mil 1.5500mm 0.8000mm "" "3" ""]
+	Pin[0.0000 300.00mil 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "4" ""]
+	Pin[300.00mil 300.00mil 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "5" ""]
+	Pin[300.00mil 200.00mil 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "6" ""]
+	Pin[300.00mil 100.00mil 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "7" ""]
+	Pin[300.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "8" ""]
+	ElementLine [-50.00mil -50.00mil 100.00mil -50.00mil 10.00mil]
+	ElementLine [200.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil -50.00mil 350.00mil 10.00mil]
+	ElementLine [350.00mil -50.00mil 350.00mil 350.00mil 10.00mil]
+	ElementLine [-50.00mil 350.00mil 350.00mil 350.00mil 10.00mil]
+	ElementArc [150.00mil -50.00mil 50.00mil 50.00mil 0 180 10.00mil]
 
 	)
 
-Element["" "C_RADIAL_400.fp" "C21" "0.1u" 500.0000mm 500.0000mm -30.00mil 160.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
-	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
-	ElementLine [-50.00mil -125.00mil 450.00mil -125.00mil 10.00mil]
-	ElementLine [-50.00mil -125.00mil -50.00mil 125.00mil 10.00mil]
-	ElementLine [450.00mil -125.00mil 450.00mil 125.00mil 10.00mil]
-	ElementLine [-50.00mil 125.00mil 450.00mil 125.00mil 10.00mil]
-
-	)
-
-Element["" "C_RADIAL_400.fp" "C18" "0.1u" 500.0000mm 500.0000mm -30.00mil 160.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
-	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
-	ElementLine [-50.00mil -125.00mil 450.00mil -125.00mil 10.00mil]
-	ElementLine [-50.00mil -125.00mil -50.00mil 125.00mil 10.00mil]
-	ElementLine [450.00mil -125.00mil 450.00mil 125.00mil 10.00mil]
-	ElementLine [-50.00mil 125.00mil 450.00mil 125.00mil 10.00mil]
-
-	)
-
-Element["" "C_RADIAL_400.fp" "C24" "0.1u" 500.0000mm 500.0000mm -30.00mil 160.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
-	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
-	ElementLine [-50.00mil -125.00mil 450.00mil -125.00mil 10.00mil]
-	ElementLine [-50.00mil -125.00mil -50.00mil 125.00mil 10.00mil]
-	ElementLine [450.00mil -125.00mil 450.00mil 125.00mil 10.00mil]
-	ElementLine [-50.00mil 125.00mil 450.00mil 125.00mil 10.00mil]
-
-	)
-
-Element["" "C_RADIAL_400.fp" "C27" "0.1u" 500.0000mm 500.0000mm -30.00mil 160.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
-	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
-	ElementLine [-50.00mil -125.00mil 450.00mil -125.00mil 10.00mil]
-	ElementLine [-50.00mil -125.00mil -50.00mil 125.00mil 10.00mil]
-	ElementLine [450.00mil -125.00mil 450.00mil 125.00mil 10.00mil]
-	ElementLine [-50.00mil 125.00mil 450.00mil 125.00mil 10.00mil]
-
-	)
-
-Element["" "C_RADIAL_100.fp" "C17" "0.01u" 500.0000mm 500.0000mm -30.00mil 80.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
-	Pin[100.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
-	ElementLine [-50.00mil -50.00mil 150.00mil -50.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
-	ElementLine [150.00mil -50.00mil 150.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil 50.00mil 150.00mil 50.00mil 10.00mil]
-
-	)
-
-Element["" "R_AXIAL_400.fp" "R45" "100" 500.0000mm 500.0000mm 60.00mil 80.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
-	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
-	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
-	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
-	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
-
-	)
-
-Element["" "C_RADIAL_100.fp" "C16" "0.01u" 500.0000mm 500.0000mm -30.00mil 80.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
-	Pin[100.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
-	ElementLine [-50.00mil -50.00mil 150.00mil -50.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
-	ElementLine [150.00mil -50.00mil 150.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil 50.00mil 150.00mil 50.00mil 10.00mil]
-
-	)
-
-Element["" "CP_CAN_80.fp" "C20" "1u" 500.0000mm 500.0000mm -50.00mil 120.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "P" "1" "square,edge2"]
-	Pin[80.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "N" "2" "edge2"]
-	ElementLine [-120.00mil 0.0000 -80.00mil 0.0000 10.00mil]
-	ElementLine [-100.00mil -20.00mil -100.00mil 20.00mil 10.00mil]
-	ElementLine [160.00mil 0.0000 200.00mil 0.0000 10.00mil]
-	ElementArc [40.00mil 0.0000 100.00mil 100.00mil 0 360 10.00mil]
-
-	)
-
-Element["" "D_DO_41.fp" "CR11" "UF4004" 500.0000mm 500.0000mm 120.00mil 80.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "A" "1" "square,edge2"]
-	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "K" "2" "edge2"]
-	ElementLine [0.0000 0.0000 100.00mil 0.0000 10.00mil]
-	ElementLine [100.00mil -50.00mil 100.00mil 50.00mil 10.00mil]
-	ElementLine [100.00mil -50.00mil 300.00mil -50.00mil 10.00mil]
-	ElementLine [100.00mil 50.00mil 300.00mil 50.00mil 10.00mil]
-	ElementLine [250.00mil -50.00mil 250.00mil 50.00mil 10.00mil]
-	ElementLine [300.00mil -50.00mil 300.00mil 50.00mil 10.00mil]
-	ElementLine [300.00mil 0.0000 400.00mil 0.0000 10.00mil]
-
-	)
-
-Element["" "R_AXIAL_400.fp" "R46" "10" 500.0000mm 500.0000mm 60.00mil 80.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
-	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
-	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
-	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
-	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
-
-	)
-
-Element["" "TO92B.fp" "Q5" "2N2222A" 500.0000mm 500.0000mm -40.00mil 120.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "C" "1" "square,edge2"]
-	Pin[100.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "B" "2" "edge2"]
-	Pin[200.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "E" "3" "edge2"]
-	ElementLine [25.00mil -50.00mil 175.00mil -50.00mil 10.00mil]
-	ElementLine [25.00mil -50.00mil 20.00mil -40.00mil 10.00mil]
-	ElementLine [175.00mil -50.00mil 180.00mil -40.00mil 10.00mil]
-	ElementArc [100.00mil 0.0000 100.00mil 100.00mil 25 130 10.00mil]
-
-	)
-
-Element["" "TEST_PIN_2.fp" "TP3" "unknown" 500.0000mm 500.0000mm -40.00mil -150.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 3.2000mm 30.00mil 3.3500mm 2.0000mm "1" "1" ""]
-
-	)
-
-Element["" "R_AXIAL_400.fp" "R47" "499" 500.0000mm 500.0000mm 60.00mil 80.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
-	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
-	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
-	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
-	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
-
-	)
-
-Element["" "R_AXIAL_400.fp" "R49" "1.96k" 500.0000mm 500.0000mm 60.00mil 80.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
-	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
-	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
-	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
-	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
-
-	)
-
-Element["" "C_RADIAL_100.fp" "C19" "1000p" 500.0000mm 500.0000mm -30.00mil 80.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
-	Pin[100.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
-	ElementLine [-50.00mil -50.00mil 150.00mil -50.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
-	ElementLine [150.00mil -50.00mil 150.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil 50.00mil 150.00mil 50.00mil 10.00mil]
-
-	)
-
-Element["" "R_AXIAL_400.fp" "R48" "19.6k" 500.0000mm 500.0000mm 60.00mil 80.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
-	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
-	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
-	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
-	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
-
-	)
-
-Element["" "C_RADIAL_100.fp" "C25" "0.01u" 500.0000mm 500.0000mm -30.00mil 80.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
-	Pin[100.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
-	ElementLine [-50.00mil -50.00mil 150.00mil -50.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
-	ElementLine [150.00mil -50.00mil 150.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil 50.00mil 150.00mil 50.00mil 10.00mil]
-
-	)
-
-Element["" "C_RADIAL_100.fp" "C26" "0.01u" 500.0000mm 500.0000mm -30.00mil 80.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
-	Pin[100.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
-	ElementLine [-50.00mil -50.00mil 150.00mil -50.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
-	ElementLine [150.00mil -50.00mil 150.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil 50.00mil 150.00mil 50.00mil 10.00mil]
-
-	)
-
-Element["" "R_AXIAL_400.fp" "R57" "100" 500.0000mm 500.0000mm 60.00mil 80.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
-	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
-	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
-	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
-	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
-
-	)
-
-Element["" "CP_CAN_80.fp" "C23" "1u" 500.0000mm 500.0000mm -50.00mil 120.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "P" "1" "square,edge2"]
-	Pin[80.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "N" "2" "edge2"]
-	ElementLine [-120.00mil 0.0000 -80.00mil 0.0000 10.00mil]
-	ElementLine [-100.00mil -20.00mil -100.00mil 20.00mil 10.00mil]
-	ElementLine [160.00mil 0.0000 200.00mil 0.0000 10.00mil]
-	ElementArc [40.00mil 0.0000 100.00mil 100.00mil 0 360 10.00mil]
-
-	)
-
-Element["" "D_DO_41.fp" "CR14" "UF4004" 500.0000mm 500.0000mm 120.00mil 80.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "A" "1" "square,edge2"]
-	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "K" "2" "edge2"]
-	ElementLine [0.0000 0.0000 100.00mil 0.0000 10.00mil]
-	ElementLine [100.00mil -50.00mil 100.00mil 50.00mil 10.00mil]
-	ElementLine [100.00mil -50.00mil 300.00mil -50.00mil 10.00mil]
-	ElementLine [100.00mil 50.00mil 300.00mil 50.00mil 10.00mil]
-	ElementLine [250.00mil -50.00mil 250.00mil 50.00mil 10.00mil]
-	ElementLine [300.00mil -50.00mil 300.00mil 50.00mil 10.00mil]
-	ElementLine [300.00mil 0.0000 400.00mil 0.0000 10.00mil]
-
-	)
-
-Element["" "R_AXIAL_400.fp" "R53" "10" 500.0000mm 500.0000mm 60.00mil 80.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
-	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
-	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
-	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
-	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
-
-	)
-
-Element["" "TO92B.fp" "Q8" "2N2222A" 500.0000mm 500.0000mm -40.00mil 120.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "C" "1" "square,edge2"]
-	Pin[100.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "B" "2" "edge2"]
-	Pin[200.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "E" "3" "edge2"]
-	ElementLine [25.00mil -50.00mil 175.00mil -50.00mil 10.00mil]
-	ElementLine [25.00mil -50.00mil 20.00mil -40.00mil 10.00mil]
-	ElementLine [175.00mil -50.00mil 180.00mil -40.00mil 10.00mil]
-	ElementArc [100.00mil 0.0000 100.00mil 100.00mil 25 130 10.00mil]
-
-	)
-
-Element["" "TEST_PIN_2.fp" "TP4" "unknown" 500.0000mm 500.0000mm -40.00mil -150.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 3.2000mm 30.00mil 3.3500mm 2.0000mm "1" "1" ""]
-
-	)
-
-Element["" "R_AXIAL_400.fp" "R50" "499" 500.0000mm 500.0000mm 60.00mil 80.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
-	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
-	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
-	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
-	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
-
-	)
-
-Element["" "R_AXIAL_400.fp" "R51" "1.96k" 500.0000mm 500.0000mm 60.00mil 80.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
-	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
-	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
-	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
-	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
-
-	)
-
-Element["" "C_RADIAL_100.fp" "C22" "1000p" 500.0000mm 500.0000mm -30.00mil 80.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
-	Pin[100.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
-	ElementLine [-50.00mil -50.00mil 150.00mil -50.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
-	ElementLine [150.00mil -50.00mil 150.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil 50.00mil 150.00mil 50.00mil 10.00mil]
-
-	)
-
-Element["" "R_AXIAL_400.fp" "R52" "19.6k" 500.0000mm 500.0000mm 60.00mil 80.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
-	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
-	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
-	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
-	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
-
-	)
-
-Element["" "D_AXIAL_800.fp" "CR3" "1N645" 500.0000mm 500.0000mm -30.00mil 100.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 2.6000mm 30.00mil 2.7500mm 1.5000mm "A" "1" "square,edge2"]
-	Pin[800.00mil 0.0000 2.6000mm 30.00mil 2.7500mm 1.5000mm "K" "2" "edge2"]
-	ElementLine [0.0000 0.0000 200.00mil 0.0000 15.00mil]
-	ElementLine [200.00mil -150.00mil 200.00mil 150.00mil 15.00mil]
-	ElementLine [200.00mil -150.00mil 600.00mil -150.00mil 15.00mil]
-	ElementLine [200.00mil 150.00mil 600.00mil 150.00mil 15.00mil]
-	ElementLine [500.00mil -150.00mil 500.00mil 150.00mil 15.00mil]
-	ElementLine [600.00mil -150.00mil 600.00mil 150.00mil 15.00mil]
-	ElementLine [600.00mil 0.0000 800.00mil 0.0000 15.00mil]
-
-	)
-
-Element["" "D_AXIAL_800.fp" "CR4" "1N645" 500.0000mm 500.0000mm -30.00mil 100.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 2.6000mm 30.00mil 2.7500mm 1.5000mm "A" "1" "square,edge2"]
-	Pin[800.00mil 0.0000 2.6000mm 30.00mil 2.7500mm 1.5000mm "K" "2" "edge2"]
-	ElementLine [0.0000 0.0000 200.00mil 0.0000 15.00mil]
-	ElementLine [200.00mil -150.00mil 200.00mil 150.00mil 15.00mil]
-	ElementLine [200.00mil -150.00mil 600.00mil -150.00mil 15.00mil]
-	ElementLine [200.00mil 150.00mil 600.00mil 150.00mil 15.00mil]
-	ElementLine [500.00mil -150.00mil 500.00mil 150.00mil 15.00mil]
-	ElementLine [600.00mil -150.00mil 600.00mil 150.00mil 15.00mil]
-	ElementLine [600.00mil 0.0000 800.00mil 0.0000 15.00mil]
-
-	)
-
-Element["" "D_AXIAL_800.fp" "CR6" "1N645" 500.0000mm 500.0000mm -30.00mil 100.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 2.6000mm 30.00mil 2.7500mm 1.5000mm "A" "1" "square,edge2"]
-	Pin[800.00mil 0.0000 2.6000mm 30.00mil 2.7500mm 1.5000mm "K" "2" "edge2"]
-	ElementLine [0.0000 0.0000 200.00mil 0.0000 15.00mil]
-	ElementLine [200.00mil -150.00mil 200.00mil 150.00mil 15.00mil]
-	ElementLine [200.00mil -150.00mil 600.00mil -150.00mil 15.00mil]
-	ElementLine [200.00mil 150.00mil 600.00mil 150.00mil 15.00mil]
-	ElementLine [500.00mil -150.00mil 500.00mil 150.00mil 15.00mil]
-	ElementLine [600.00mil -150.00mil 600.00mil 150.00mil 15.00mil]
-	ElementLine [600.00mil 0.0000 800.00mil 0.0000 15.00mil]
-
-	)
-
-Element["" "R_AXIAL_400.fp" "R12" "1k" 500.0000mm 500.0000mm 60.00mil 80.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
-	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
-	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
-	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
-	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
-
-	)
-
-Element["" "R_AXIAL_400.fp" "R15" "10k" 500.0000mm 500.0000mm 60.00mil 80.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
-	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
-	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
-	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
-	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
-
-	)
-
-Element["" "D_AXIAL_800.fp" "CR5" "1N645" 500.0000mm 500.0000mm -30.00mil 100.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 2.6000mm 30.00mil 2.7500mm 1.5000mm "A" "1" "square,edge2"]
-	Pin[800.00mil 0.0000 2.6000mm 30.00mil 2.7500mm 1.5000mm "K" "2" "edge2"]
-	ElementLine [0.0000 0.0000 200.00mil 0.0000 15.00mil]
-	ElementLine [200.00mil -150.00mil 200.00mil 150.00mil 15.00mil]
-	ElementLine [200.00mil -150.00mil 600.00mil -150.00mil 15.00mil]
-	ElementLine [200.00mil 150.00mil 600.00mil 150.00mil 15.00mil]
-	ElementLine [500.00mil -150.00mil 500.00mil 150.00mil 15.00mil]
-	ElementLine [600.00mil -150.00mil 600.00mil 150.00mil 15.00mil]
-	ElementLine [600.00mil 0.0000 800.00mil 0.0000 15.00mil]
-
-	)
-
-Element["" "D_AXIAL_800.fp" "CR7" "1N645" 500.0000mm 500.0000mm -30.00mil 100.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 2.6000mm 30.00mil 2.7500mm 1.5000mm "A" "1" "square,edge2"]
-	Pin[800.00mil 0.0000 2.6000mm 30.00mil 2.7500mm 1.5000mm "K" "2" "edge2"]
-	ElementLine [0.0000 0.0000 200.00mil 0.0000 15.00mil]
-	ElementLine [200.00mil -150.00mil 200.00mil 150.00mil 15.00mil]
-	ElementLine [200.00mil -150.00mil 600.00mil -150.00mil 15.00mil]
-	ElementLine [200.00mil 150.00mil 600.00mil 150.00mil 15.00mil]
-	ElementLine [500.00mil -150.00mil 500.00mil 150.00mil 15.00mil]
-	ElementLine [600.00mil -150.00mil 600.00mil 150.00mil 15.00mil]
-	ElementLine [600.00mil 0.0000 800.00mil 0.0000 15.00mil]
-
-	)
-
-Element["" "R_AXIAL_400.fp" "R16" "100k" 500.0000mm 500.0000mm 60.00mil 80.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
-	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
-	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
-	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
-	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
-
-	)
-
-Element["" "C_RADIAL_100.fp" "C11" "0.01u" 500.0000mm 500.0000mm -30.00mil 80.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
-	Pin[100.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
-	ElementLine [-50.00mil -50.00mil 150.00mil -50.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
-	ElementLine [150.00mil -50.00mil 150.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil 50.00mil 150.00mil 50.00mil 10.00mil]
-
-	)
-
-Element["" "R_AXIAL_400.fp" "R13" "68.1k" 500.0000mm 500.0000mm 60.00mil 80.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
-	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
-	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
-	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
-	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
-
-	)
-
-Element["" "R_AXIAL_400.fp" "R14" "19.6k" 500.0000mm 500.0000mm 60.00mil 80.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
-	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
-	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
-	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
-	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
-	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
-
-	)
-
-Element["" "C_RADIAL_100.fp" "C12" "0.1u" 500.0000mm 500.0000mm -30.00mil 80.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
-	Pin[100.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
-	ElementLine [-50.00mil -50.00mil 150.00mil -50.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
-	ElementLine [150.00mil -50.00mil 150.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil 50.00mil 150.00mil 50.00mil 10.00mil]
-
-	)
-
-Element["" "DIP_8.fp" "U2" "LM358" 500.0000mm 500.0000mm -30.00mil -140.00mil 0 100 ""]
+Element["" "DIP_8.fp" "U2" "LM358" 97.0000mm 4.0000mm -30.00mil -140.00mil 0 100 ""]
 (
 	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "OUT" "1" "square"]
 	Pin[0.0000 100.00mil 1.4000mm 30.00mil 1.5500mm 0.8000mm "IN-" "2" ""]
@@ -4423,41 +3914,523 @@ Element["" "DIP_8.fp" "U2" "LM358" 500.0000mm 500.0000mm -30.00mil -140.00mil 0 
 
 	)
 
-Element["" "DIP_8.fp" "T2" "unknown" 500.0000mm 500.0000mm -30.00mil -140.00mil 0 100 ""]
+Element["" "C_RADIAL_100.fp" "C12" "0.1u" 110.0000mm 4.0000mm -30.00mil 80.00mil 0 100 ""]
 (
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square"]
-	Pin[0.0000 100.00mil 1.4000mm 30.00mil 1.5500mm 0.8000mm "" "2" ""]
-	Pin[0.0000 200.00mil 1.4000mm 30.00mil 1.5500mm 0.8000mm "" "3" ""]
-	Pin[0.0000 300.00mil 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "4" ""]
-	Pin[300.00mil 300.00mil 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "5" ""]
-	Pin[300.00mil 200.00mil 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "6" ""]
-	Pin[300.00mil 100.00mil 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "7" ""]
-	Pin[300.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "8" ""]
-	ElementLine [-50.00mil -50.00mil 100.00mil -50.00mil 10.00mil]
-	ElementLine [200.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil -50.00mil 350.00mil 10.00mil]
-	ElementLine [350.00mil -50.00mil 350.00mil 350.00mil 10.00mil]
-	ElementLine [-50.00mil 350.00mil 350.00mil 350.00mil 10.00mil]
-	ElementArc [150.00mil -50.00mil 50.00mil 50.00mil 0 180 10.00mil]
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
+	Pin[100.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
+	ElementLine [-50.00mil -50.00mil 150.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
+	ElementLine [150.00mil -50.00mil 150.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil 50.00mil 150.00mil 50.00mil 10.00mil]
 
 	)
 
-Element["" "DIP_8.fp" "T3" "unknown" 500.0000mm 500.0000mm -30.00mil -140.00mil 0 100 ""]
+Element["" "R_AXIAL_400.fp" "R14" "19.6k" 117.0000mm 4.0000mm 60.00mil 80.00mil 0 100 ""]
 (
-	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square"]
-	Pin[0.0000 100.00mil 1.4000mm 30.00mil 1.5500mm 0.8000mm "" "2" ""]
-	Pin[0.0000 200.00mil 1.4000mm 30.00mil 1.5500mm 0.8000mm "" "3" ""]
-	Pin[0.0000 300.00mil 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "4" ""]
-	Pin[300.00mil 300.00mil 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "5" ""]
-	Pin[300.00mil 200.00mil 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "6" ""]
-	Pin[300.00mil 100.00mil 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "7" ""]
-	Pin[300.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "8" ""]
-	ElementLine [-50.00mil -50.00mil 100.00mil -50.00mil 10.00mil]
-	ElementLine [200.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil -50.00mil 350.00mil 10.00mil]
-	ElementLine [350.00mil -50.00mil 350.00mil 350.00mil 10.00mil]
-	ElementLine [-50.00mil 350.00mil 350.00mil 350.00mil 10.00mil]
-	ElementArc [150.00mil -50.00mil 50.00mil 50.00mil 0 180 10.00mil]
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
+	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
+	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
+	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
+	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
+
+	)
+
+Element["" "R_AXIAL_400.fp" "R13" "68.1k" 132.0000mm 4.0000mm 60.00mil 80.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
+	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
+	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
+	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
+	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
+
+	)
+
+Element["" "C_RADIAL_100.fp" "C11" "0.01u" 147.0000mm 4.0000mm -30.00mil 80.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
+	Pin[100.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
+	ElementLine [-50.00mil -50.00mil 150.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
+	ElementLine [150.00mil -50.00mil 150.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil 50.00mil 150.00mil 50.00mil 10.00mil]
+
+	)
+
+Element["" "R_AXIAL_400.fp" "R16" "100k" 155.0000mm 4.0000mm 60.00mil 80.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
+	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
+	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
+	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
+	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
+
+	)
+
+Element["" "D_AXIAL_800.fp" "CR7" "1N645" 170.0000mm 7.0000mm -30.00mil 100.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 2.6000mm 30.00mil 2.7500mm 1.5000mm "A" "1" "square,edge2"]
+	Pin[800.00mil 0.0000 2.6000mm 30.00mil 2.7500mm 1.5000mm "K" "2" "edge2"]
+	ElementLine [0.0000 0.0000 200.00mil 0.0000 15.00mil]
+	ElementLine [200.00mil -150.00mil 200.00mil 150.00mil 15.00mil]
+	ElementLine [200.00mil -150.00mil 600.00mil -150.00mil 15.00mil]
+	ElementLine [200.00mil 150.00mil 600.00mil 150.00mil 15.00mil]
+	ElementLine [500.00mil -150.00mil 500.00mil 150.00mil 15.00mil]
+	ElementLine [600.00mil -150.00mil 600.00mil 150.00mil 15.00mil]
+	ElementLine [600.00mil 0.0000 800.00mil 0.0000 15.00mil]
+
+	)
+
+Element["" "D_AXIAL_800.fp" "CR5" "1N645" 197.0000mm 7.0000mm -30.00mil 100.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 2.6000mm 30.00mil 2.7500mm 1.5000mm "A" "1" "square,edge2"]
+	Pin[800.00mil 0.0000 2.6000mm 30.00mil 2.7500mm 1.5000mm "K" "2" "edge2"]
+	ElementLine [0.0000 0.0000 200.00mil 0.0000 15.00mil]
+	ElementLine [200.00mil -150.00mil 200.00mil 150.00mil 15.00mil]
+	ElementLine [200.00mil -150.00mil 600.00mil -150.00mil 15.00mil]
+	ElementLine [200.00mil 150.00mil 600.00mil 150.00mil 15.00mil]
+	ElementLine [500.00mil -150.00mil 500.00mil 150.00mil 15.00mil]
+	ElementLine [600.00mil -150.00mil 600.00mil 150.00mil 15.00mil]
+	ElementLine [600.00mil 0.0000 800.00mil 0.0000 15.00mil]
+
+	)
+
+Element["" "R_AXIAL_400.fp" "R15" "10k" 222.0000mm 4.0000mm 60.00mil 80.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
+	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
+	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
+	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
+	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
+
+	)
+
+Element["" "R_AXIAL_400.fp" "R12" "1k" 237.0000mm 4.0000mm 60.00mil 80.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
+	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
+	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
+	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
+	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
+
+	)
+
+Element["" "D_AXIAL_800.fp" "CR6" "1N645" 253.0000mm 7.0000mm -30.00mil 100.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 2.6000mm 30.00mil 2.7500mm 1.5000mm "A" "1" "square,edge2"]
+	Pin[800.00mil 0.0000 2.6000mm 30.00mil 2.7500mm 1.5000mm "K" "2" "edge2"]
+	ElementLine [0.0000 0.0000 200.00mil 0.0000 15.00mil]
+	ElementLine [200.00mil -150.00mil 200.00mil 150.00mil 15.00mil]
+	ElementLine [200.00mil -150.00mil 600.00mil -150.00mil 15.00mil]
+	ElementLine [200.00mil 150.00mil 600.00mil 150.00mil 15.00mil]
+	ElementLine [500.00mil -150.00mil 500.00mil 150.00mil 15.00mil]
+	ElementLine [600.00mil -150.00mil 600.00mil 150.00mil 15.00mil]
+	ElementLine [600.00mil 0.0000 800.00mil 0.0000 15.00mil]
+
+	)
+
+Element["" "D_AXIAL_800.fp" "CR4" "1N645" 279.0000mm 7.0000mm -30.00mil 100.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 2.6000mm 30.00mil 2.7500mm 1.5000mm "A" "1" "square,edge2"]
+	Pin[800.00mil 0.0000 2.6000mm 30.00mil 2.7500mm 1.5000mm "K" "2" "edge2"]
+	ElementLine [0.0000 0.0000 200.00mil 0.0000 15.00mil]
+	ElementLine [200.00mil -150.00mil 200.00mil 150.00mil 15.00mil]
+	ElementLine [200.00mil -150.00mil 600.00mil -150.00mil 15.00mil]
+	ElementLine [200.00mil 150.00mil 600.00mil 150.00mil 15.00mil]
+	ElementLine [500.00mil -150.00mil 500.00mil 150.00mil 15.00mil]
+	ElementLine [600.00mil -150.00mil 600.00mil 150.00mil 15.00mil]
+	ElementLine [600.00mil 0.0000 800.00mil 0.0000 15.00mil]
+
+	)
+
+Element["" "D_AXIAL_800.fp" "CR3" "1N645" 305.0000mm 7.0000mm -30.00mil 100.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 2.6000mm 30.00mil 2.7500mm 1.5000mm "A" "1" "square,edge2"]
+	Pin[800.00mil 0.0000 2.6000mm 30.00mil 2.7500mm 1.5000mm "K" "2" "edge2"]
+	ElementLine [0.0000 0.0000 200.00mil 0.0000 15.00mil]
+	ElementLine [200.00mil -150.00mil 200.00mil 150.00mil 15.00mil]
+	ElementLine [200.00mil -150.00mil 600.00mil -150.00mil 15.00mil]
+	ElementLine [200.00mil 150.00mil 600.00mil 150.00mil 15.00mil]
+	ElementLine [500.00mil -150.00mil 500.00mil 150.00mil 15.00mil]
+	ElementLine [600.00mil -150.00mil 600.00mil 150.00mil 15.00mil]
+	ElementLine [600.00mil 0.0000 800.00mil 0.0000 15.00mil]
+
+	)
+
+Element["" "R_AXIAL_400.fp" "R52" "19.6k" 331.0000mm 4.0000mm 60.00mil 80.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
+	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
+	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
+	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
+	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
+
+	)
+
+Element["" "C_RADIAL_100.fp" "C22" "1000p" 346.0000mm 4.0000mm -30.00mil 80.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
+	Pin[100.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
+	ElementLine [-50.00mil -50.00mil 150.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
+	ElementLine [150.00mil -50.00mil 150.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil 50.00mil 150.00mil 50.00mil 10.00mil]
+
+	)
+
+Element["" "R_AXIAL_400.fp" "R51" "1.96k" 353.0000mm 4.0000mm 60.00mil 80.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
+	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
+	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
+	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
+	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
+
+	)
+
+Element["" "R_AXIAL_400.fp" "R50" "499" 368.0000mm 4.0000mm 60.00mil 80.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
+	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
+	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
+	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
+	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
+
+	)
+
+Element["" "TEST_PIN_2.fp" "TP4" "unknown" 384.0000mm 5.0000mm -40.00mil -150.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 3.2000mm 30.00mil 3.3500mm 2.0000mm "1" "1" ""]
+
+	)
+
+Element["" "TO92B.fp" "Q8" "2N2222A" 390.0000mm 4.0000mm -40.00mil 120.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "C" "1" "square,edge2"]
+	Pin[100.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "B" "2" "edge2"]
+	Pin[200.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "E" "3" "edge2"]
+	ElementLine [25.00mil -50.00mil 175.00mil -50.00mil 10.00mil]
+	ElementLine [25.00mil -50.00mil 20.00mil -40.00mil 10.00mil]
+	ElementLine [175.00mil -50.00mil 180.00mil -40.00mil 10.00mil]
+	ElementArc [100.00mil 0.0000 100.00mil 100.00mil 25 130 10.00mil]
+
+	)
+
+Element["" "R_AXIAL_400.fp" "R53" "10" 399.0000mm 4.0000mm 60.00mil 80.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
+	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
+	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
+	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
+	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
+
+	)
+
+Element["" "D_DO_41.fp" "CR14" "UF4004" 414.0000mm 4.0000mm 120.00mil 80.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "A" "1" "square,edge2"]
+	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "K" "2" "edge2"]
+	ElementLine [0.0000 0.0000 100.00mil 0.0000 10.00mil]
+	ElementLine [100.00mil -50.00mil 100.00mil 50.00mil 10.00mil]
+	ElementLine [100.00mil -50.00mil 300.00mil -50.00mil 10.00mil]
+	ElementLine [100.00mil 50.00mil 300.00mil 50.00mil 10.00mil]
+	ElementLine [250.00mil -50.00mil 250.00mil 50.00mil 10.00mil]
+	ElementLine [300.00mil -50.00mil 300.00mil 50.00mil 10.00mil]
+	ElementLine [300.00mil 0.0000 400.00mil 0.0000 10.00mil]
+
+	)
+
+Element["" "CP_CAN_80.fp" "C23" "1u" 431.0000mm 6.0000mm -50.00mil 120.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "P" "1" "square,edge2"]
+	Pin[80.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "N" "2" "edge2"]
+	ElementLine [-120.00mil 0.0000 -80.00mil 0.0000 10.00mil]
+	ElementLine [-100.00mil -20.00mil -100.00mil 20.00mil 10.00mil]
+	ElementLine [160.00mil 0.0000 200.00mil 0.0000 10.00mil]
+	ElementArc [40.00mil 0.0000 100.00mil 100.00mil 0 360 10.00mil]
+
+	)
+
+Element["" "R_AXIAL_400.fp" "R57" "100" 440.0000mm 4.0000mm 60.00mil 80.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
+	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
+	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
+	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
+	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
+
+	)
+
+Element["" "C_RADIAL_100.fp" "C26" "0.01u" 455.0000mm 4.0000mm -30.00mil 80.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
+	Pin[100.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
+	ElementLine [-50.00mil -50.00mil 150.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
+	ElementLine [150.00mil -50.00mil 150.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil 50.00mil 150.00mil 50.00mil 10.00mil]
+
+	)
+
+Element["" "C_RADIAL_100.fp" "C25" "0.01u" 463.0000mm 4.0000mm -30.00mil 80.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
+	Pin[100.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
+	ElementLine [-50.00mil -50.00mil 150.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
+	ElementLine [150.00mil -50.00mil 150.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil 50.00mil 150.00mil 50.00mil 10.00mil]
+
+	)
+
+Element["" "R_AXIAL_400.fp" "R48" "19.6k" 471.0000mm 4.0000mm 60.00mil 80.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
+	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
+	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
+	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
+	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
+
+	)
+
+Element["" "C_RADIAL_100.fp" "C19" "1000p" 486.0000mm 4.0000mm -30.00mil 80.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
+	Pin[100.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
+	ElementLine [-50.00mil -50.00mil 150.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
+	ElementLine [150.00mil -50.00mil 150.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil 50.00mil 150.00mil 50.00mil 10.00mil]
+
+	)
+
+Element["" "R_AXIAL_400.fp" "R49" "1.96k" 4.0000mm 18.0000mm 60.00mil 80.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
+	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
+	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
+	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
+	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
+
+	)
+
+Element["" "R_AXIAL_400.fp" "R47" "499" 19.0000mm 18.0000mm 60.00mil 80.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
+	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
+	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
+	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
+	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
+
+	)
+
+Element["" "TEST_PIN_2.fp" "TP3" "unknown" 35.0000mm 18.0000mm -40.00mil -150.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 3.2000mm 30.00mil 3.3500mm 2.0000mm "1" "1" ""]
+
+	)
+
+Element["" "TO92B.fp" "Q5" "2N2222A" 40.0000mm 18.0000mm -40.00mil 120.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "C" "1" "square,edge2"]
+	Pin[100.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "B" "2" "edge2"]
+	Pin[200.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "E" "3" "edge2"]
+	ElementLine [25.00mil -50.00mil 175.00mil -50.00mil 10.00mil]
+	ElementLine [25.00mil -50.00mil 20.00mil -40.00mil 10.00mil]
+	ElementLine [175.00mil -50.00mil 180.00mil -40.00mil 10.00mil]
+	ElementArc [100.00mil 0.0000 100.00mil 100.00mil 25 130 10.00mil]
+
+	)
+
+Element["" "R_AXIAL_400.fp" "R46" "10" 50.0000mm 18.0000mm 60.00mil 80.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
+	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
+	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
+	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
+	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
+
+	)
+
+Element["" "D_DO_41.fp" "CR11" "UF4004" 65.0000mm 18.0000mm 120.00mil 80.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "A" "1" "square,edge2"]
+	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "K" "2" "edge2"]
+	ElementLine [0.0000 0.0000 100.00mil 0.0000 10.00mil]
+	ElementLine [100.00mil -50.00mil 100.00mil 50.00mil 10.00mil]
+	ElementLine [100.00mil -50.00mil 300.00mil -50.00mil 10.00mil]
+	ElementLine [100.00mil 50.00mil 300.00mil 50.00mil 10.00mil]
+	ElementLine [250.00mil -50.00mil 250.00mil 50.00mil 10.00mil]
+	ElementLine [300.00mil -50.00mil 300.00mil 50.00mil 10.00mil]
+	ElementLine [300.00mil 0.0000 400.00mil 0.0000 10.00mil]
+
+	)
+
+Element["" "CP_CAN_80.fp" "C20" "1u" 82.0000mm 19.0000mm -50.00mil 120.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "P" "1" "square,edge2"]
+	Pin[80.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "N" "2" "edge2"]
+	ElementLine [-120.00mil 0.0000 -80.00mil 0.0000 10.00mil]
+	ElementLine [-100.00mil -20.00mil -100.00mil 20.00mil 10.00mil]
+	ElementLine [160.00mil 0.0000 200.00mil 0.0000 10.00mil]
+	ElementArc [40.00mil 0.0000 100.00mil 100.00mil 0 360 10.00mil]
+
+	)
+
+Element["" "C_RADIAL_100.fp" "C16" "0.01u" 91.0000mm 18.0000mm -30.00mil 80.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
+	Pin[100.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
+	ElementLine [-50.00mil -50.00mil 150.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
+	ElementLine [150.00mil -50.00mil 150.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil 50.00mil 150.00mil 50.00mil 10.00mil]
+
+	)
+
+Element["" "R_AXIAL_400.fp" "R45" "100" 99.0000mm 18.0000mm 60.00mil 80.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
+	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
+	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
+	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
+	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
+
+	)
+
+Element["" "C_RADIAL_100.fp" "C17" "0.01u" 114.0000mm 18.0000mm -30.00mil 80.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
+	Pin[100.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
+	ElementLine [-50.00mil -50.00mil 150.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
+	ElementLine [150.00mil -50.00mil 150.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil 50.00mil 150.00mil 50.00mil 10.00mil]
+
+	)
+
+Element["" "C_RADIAL_400.fp" "C27" "0.1u" 122.0000mm 20.0000mm -30.00mil 160.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
+	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
+	ElementLine [-50.00mil -125.00mil 450.00mil -125.00mil 10.00mil]
+	ElementLine [-50.00mil -125.00mil -50.00mil 125.00mil 10.00mil]
+	ElementLine [450.00mil -125.00mil 450.00mil 125.00mil 10.00mil]
+	ElementLine [-50.00mil 125.00mil 450.00mil 125.00mil 10.00mil]
+
+	)
+
+Element["" "C_RADIAL_400.fp" "C24" "0.1u" 137.0000mm 20.0000mm -30.00mil 160.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
+	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
+	ElementLine [-50.00mil -125.00mil 450.00mil -125.00mil 10.00mil]
+	ElementLine [-50.00mil -125.00mil -50.00mil 125.00mil 10.00mil]
+	ElementLine [450.00mil -125.00mil 450.00mil 125.00mil 10.00mil]
+	ElementLine [-50.00mil 125.00mil 450.00mil 125.00mil 10.00mil]
+
+	)
+
+Element["" "C_RADIAL_400.fp" "C18" "0.1u" 153.0000mm 20.0000mm -30.00mil 160.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
+	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
+	ElementLine [-50.00mil -125.00mil 450.00mil -125.00mil 10.00mil]
+	ElementLine [-50.00mil -125.00mil -50.00mil 125.00mil 10.00mil]
+	ElementLine [450.00mil -125.00mil 450.00mil 125.00mil 10.00mil]
+	ElementLine [-50.00mil 125.00mil 450.00mil 125.00mil 10.00mil]
+
+	)
+
+Element["" "C_RADIAL_400.fp" "C21" "0.1u" 168.0000mm 20.0000mm -30.00mil 160.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
+	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
+	ElementLine [-50.00mil -125.00mil 450.00mil -125.00mil 10.00mil]
+	ElementLine [-50.00mil -125.00mil -50.00mil 125.00mil 10.00mil]
+	ElementLine [450.00mil -125.00mil 450.00mil 125.00mil 10.00mil]
+	ElementLine [-50.00mil 125.00mil 450.00mil 125.00mil 10.00mil]
+
+	)
+
+Element["" "C_RADIAL_100.fp" "C29" "0.01u" 184.0000mm 18.0000mm -30.00mil 80.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
+	Pin[100.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
+	ElementLine [-50.00mil -50.00mil 150.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
+	ElementLine [150.00mil -50.00mil 150.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil 50.00mil 150.00mil 50.00mil 10.00mil]
+
+	)
+
+Element["" "R_AXIAL_400.fp" "R9" "1k" 191.0000mm 18.0000mm 60.00mil 80.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
+	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
+	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
+	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
+	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
+
+	)
+
+Element["" "R_AXIAL_400.fp" "R8" "1k" 206.0000mm 18.0000mm 60.00mil 80.00mil 0 100 ""]
+(
+	Pin[0.0000 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "1" "1" "square,edge2"]
+	Pin[400.00mil 0.0000 1.4000mm 30.00mil 1.5500mm 0.8000mm "2" "2" "edge2"]
+	ElementLine [0.0000 0.0000 50.00mil 0.0000 10.00mil]
+	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [50.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
+	ElementLine [50.00mil 50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil -50.00mil 350.00mil 50.00mil 10.00mil]
+	ElementLine [350.00mil 0.0000 400.00mil 0.0000 10.00mil]
 
 	)
 Rat[17800.00mil 16200.00mil 0 17950.00mil 9900.00mil 5  ""]
@@ -5176,9 +5149,7 @@ NetList()
 		Connect("CR14-2")
 		Connect("J1-1")
 		Connect("Q6-1")
-		Connect("Q6-3")
 		Connect("Q7-1")
-		Connect("Q7-3")
 		Connect("R18-1")
 		Connect("T2-1")
 		Connect("T3-1")
@@ -5252,14 +5223,10 @@ NetList()
 		Connect("C55-2")
 		Connect("C56-2")
 		Connect("Q11-3")
-		Connect("R42-2")
-		Connect("R44-2")
 		Connect("R46-2")
 		Connect("R49-2")
 		Connect("R51-2")
 		Connect("R53-2")
-		Connect("R54-2")
-		Connect("R56-2")
 		Connect("R94-3")
 		Connect("R95-1")
 		Connect("R111-2")
@@ -5323,10 +5290,8 @@ NetList()
 		Connect("C28-2")
 		Connect("C63-1")
 		Connect("C66-1")
-		Connect("CR9-1")
 		Connect("CR10-1")
 		Connect("CR13-4")
-		Connect("CR17-1")
 		Connect("CR18-1")
 		Connect("CR19-1")
 		Connect("CR20-2")
@@ -5483,7 +5448,6 @@ NetList()
 		Connect("CR12-3")
 		Connect("R42-1")
 		Connect("R43-2")
-		Connect("U23-4")
 	)
 	Net("JJ" "(unknown)")
 	(
@@ -5492,7 +5456,6 @@ NetList()
 		Connect("C21-1")
 		Connect("C63-2")
 		Connect("C64-1")
-		Connect("CR8-1")
 		Connect("CR10-2")
 		Connect("CR12-1")
 		Connect("J6-4")
@@ -5506,7 +5469,6 @@ NetList()
 		Connect("CR10-3")
 		Connect("R44-1")
 		Connect("R45-2")
-		Connect("U24-4")
 	)
 	Net("LL" "(unknown)")
 	(
@@ -5536,7 +5498,6 @@ NetList()
 		Connect("CR15-3")
 		Connect("R54-1")
 		Connect("R55-2")
-		Connect("U22-4")
 	)
 	Net("NN" "(unknown)")
 	(
@@ -5547,7 +5508,6 @@ NetList()
 		Connect("C65-1")
 		Connect("C66-2")
 		Connect("CR15-1")
-		Connect("CR16-1")
 		Connect("CR18-2")
 		Connect("J6-1")
 		Connect("R57-1")
@@ -5559,7 +5519,6 @@ NetList()
 		Connect("CR18-3")
 		Connect("R56-1")
 		Connect("R57-2")
-		Connect("U21-4")
 	)
 	Net("OUTPUT+" "(unknown)")
 	(
@@ -5577,7 +5536,6 @@ NetList()
 	(
 		Connect("Q8-2")
 		Connect("R50-1")
-		Connect("R55-2")
 		Connect("TP4-1")
 		Connect("TP26-1")
 		Connect("U3-1")
@@ -5585,7 +5543,6 @@ NetList()
 	Net("SCR_B" "(unknown)")
 	(
 		Connect("Q5-2")
-		Connect("R43-2")
 		Connect("R47-1")
 		Connect("TP3-1")
 		Connect("TP27-1")
@@ -6463,87 +6420,5 @@ NetList()
 	(
 		Connect("CR9-2")
 		Connect("R44-2")
-	)
-	Net("unnamed_net147" "(unknown)")
-	(
-		Connect("CR16-2")
-		Connect("U22-5")
-		Connect("U22-6")
-	)
-	Net("unnamed_net148" "(unknown)")
-	(
-		Connect("Q7-1")
-		Connect("U21-1")
-		Connect("U22-1")
-	)
-	Net("unnamed_net149" "(unknown)")
-	(
-		Connect("R56-1")
-		Connect("U21-2")
-	)
-	Net("unnamed_net150" "(unknown)")
-	(
-		Connect("U21-3")
-	)
-	Net("unnamed_net151" "(unknown)")
-	(
-		Connect("CR17-2")
-		Connect("U21-5")
-		Connect("U21-6")
-	)
-	Net("unnamed_net152" "(unknown)")
-	(
-		Connect("R54-1")
-		Connect("U22-2")
-	)
-	Net("unnamed_net153" "(unknown)")
-	(
-		Connect("U22-3")
-	)
-	Net("unnamed_net154" "(unknown)")
-	(
-		Connect("Q7-2")
-		Connect("R55-1")
-	)
-	Net("unnamed_net155" "(unknown)")
-	(
-		Connect("CR8-2")
-		Connect("U23-5")
-		Connect("U23-6")
-	)
-	Net("unnamed_net156" "(unknown)")
-	(
-		Connect("R42-1")
-		Connect("U23-2")
-	)
-	Net("unnamed_net157" "(unknown)")
-	(
-		Connect("Q6-1")
-		Connect("U23-1")
-		Connect("U24-1")
-	)
-	Net("unnamed_net158" "(unknown)")
-	(
-		Connect("U23-3")
-	)
-	Net("unnamed_net159" "(unknown)")
-	(
-		Connect("CR9-2")
-		Connect("U24-5")
-		Connect("U24-6")
-	)
-	Net("unnamed_net160" "(unknown)")
-	(
-		Connect("R44-1")
-		Connect("U24-2")
-	)
-	Net("unnamed_net161" "(unknown)")
-	(
-		Connect("U24-3")
-	)
-	Net("unnamed_net162" "(unknown)")
-	(
-		Connect("Q6-2")
-		Connect("R43-1")
 	)
 )

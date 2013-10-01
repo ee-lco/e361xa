@@ -2590,29 +2590,6 @@ Element["" "R_AXIAL_1200.fp" "R59" "1.78" 12000.00mil 10700.00mil 170.00mil 180.
 
 	)
 
-Element["" "HEADER_12D_2.fp" "J1" "unknown" 200.00mil 200.00mil -30.00mil -140.00mil 0 100 ""]
-(
-	Pin[0.0000 0.0000 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "1" "square"]
-	Pin[100.00mil 0.0000 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "2" ""]
-	Pin[0.0000 100.00mil 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "3" ""]
-	Pin[100.00mil 100.00mil 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "4" ""]
-	Pin[0.0000 200.00mil 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "5" ""]
-	Pin[100.00mil 200.00mil 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "6" ""]
-	Pin[0.0000 300.00mil 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "7" ""]
-	Pin[100.00mil 300.00mil 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "8" ""]
-	Pin[0.0000 400.00mil 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "9" ""]
-	Pin[100.00mil 400.00mil 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "10" ""]
-	Pin[0.0000 500.00mil 1.7000mm 30.00mil 1.8500mm 1.0000mm "1" "11" ""]
-	Pin[100.00mil 500.00mil 1.7000mm 30.00mil 1.8500mm 1.0000mm "" "12" ""]
-	ElementLine [-50.00mil -50.00mil 150.00mil -50.00mil 10.00mil]
-	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil -50.00mil 550.00mil 10.00mil]
-	ElementLine [150.00mil -50.00mil 150.00mil 550.00mil 10.00mil]
-	ElementLine [-50.00mil 550.00mil 150.00mil 550.00mil 10.00mil]
-
-	)
-
 Element["" "" "" "" 600.00mil 300.00mil -160.00mil -200.00mil 0 100 ""]
 (
 	Pin[0.0000 0.0000 7.7000mm 30.00mil 7.8500mm 3.4000mm "" "1" ""]

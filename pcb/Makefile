@@ -9,11 +9,11 @@ all: e3614a.cmd e3617a.cmd
 
 .PHONY: clean
 clean:
-	rm -f *.gsch2pcb *.new.pcb *.cmd* *.net *~ *.sch*
+	rm -f *.gsch2pcb *.new.pcb *.cmd* *.net *~
 
 .PHONY: mrproper
 mrproper: clean
-	rm -f *.pcb.bak*
+	rm -f *.pcb.bak* *.sch
 
 e3614a.cmd: $(foreach s,1 2 3 4 5,e3614a-$(s).sch)
 
@@ -26,17 +26,17 @@ e3617a.cmd: $(foreach s,1 2 3 4 6,e3617a-$(s).sch)
 %.cmd: %.pcb Makefile
 	gsch2pcb -q -d $(FP_DIR) -o $(basename $@) $(filter %.sch,$^)
 	@mv $@ $@~
-	echo "LoadFrom(Layout, $(filter %.pcb,$^)" >> $@
-	if [ -e $(patsubst %.cmd,%.new.pcb,$^) ]; then								\
-		echo "LoadFrom(LayoutToBuffer, $(patsubst %.cmd,%.new.pcb,$^)" >> $@;	\
-		grep -E '\s*^PCB' < $(filter %.pcb,$^)									\
+	@echo "LoadFrom(Layout, $<)" >> $@
+	@if [ -e $(patsubst %.pcb,%.new.pcb,$<) ]; then								\
+		echo "LoadFrom(LayoutToBuffer, $(patsubst %.pcb,%.new.pcb,$<)" >> $@;	\
+		grep -E '\s*^PCB' < $<													\
 			| sed 's/\s*PCB\s*\[\s*"[^"]*"\s\+\([0-9.]\+\)\([a-z]\+\)\s\+\([0-9.]\+\)[a-z]\+\s*\].*/PasteBuffer(ToLayout, \1, \3, \2)/' \
 			>> $@;																\
 	fi
-	echo "LoadFrom(Netlist, $(patsubst %.net,%.new.pcb,$^))" >> $@
-	cat $@~ >> $@
-	echo "SaveTo(Layout)" >> $@
-	echo "Quit" >> $@
+	@echo "LoadFrom(Netlist, $(patsubst %.pcb,%.net,$<))" >> $@
+	@cat $@~ >> $@
+	@echo "SaveTo(Layout)" >> $@
+	@echo "Quit" >> $@
 	pcb --action-script $@
 
 define import-schem
