@@ -1,4 +1,4 @@
 (reset-component-library)
 (reset-source-library)
-(component-library "../lib/sym")
+(component-library "./lib/sym")
 
