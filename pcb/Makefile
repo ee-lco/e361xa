@@ -28,7 +28,7 @@ e3617a.cmd: $(foreach s,1 2 3 4 6,e3617a-$(s).sch)
 	@mv $@ $@~
 	@echo "LoadFrom(Layout, $<)" >> $@
 	@if [ -e $(patsubst %.pcb,%.new.pcb,$<) ]; then								\
-		echo "LoadFrom(LayoutToBuffer, $(patsubst %.pcb,%.new.pcb,$<)" >> $@;	\
+		echo "LoadFrom(LayoutToBuffer, $(patsubst %.pcb,%.new.pcb,$<))" >> $@;	\
 		grep -E '\s*^PCB' < $<													\
 			| sed 's/\s*PCB\s*\[\s*"[^"]*"\s\+\([0-9.]\+\)\([a-z]\+\)\s\+\([0-9.]\+\)[a-z]\+\s*\].*/PasteBuffer(ToLayout, \1, \3, \2)/' \
 			>> $@;																\
