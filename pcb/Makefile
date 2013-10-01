@@ -4,7 +4,8 @@ DEV_DIR=./lib/dev
 MM_DIR=./tools/mipmap
 
 .PHONY: all
-all: e3614a.cmd e3615a.cmd e3616a.cmd e3617a.cmd
+#all: e3614a.cmd e3615a.cmd e3616a.cmd e3617a.cmd
+all: e3614a.cmd e3617a.cmd
 
 .PHONY: clean
 clean:
@@ -39,7 +40,7 @@ e3617a.cmd: $(foreach s,1 2 3 4 6,e3617a-$(s).sch)
 	pcb --action-script $@
 
 define import-schem
-./e36%a-$(1).INPUT.sch:: ../e361xa/e361xa-$(1).sch
+./e36%a-$(1).INPUT.sch:: ../sch/e361xa-$(1).sch
 	cp $$< $$@
 
 endef
