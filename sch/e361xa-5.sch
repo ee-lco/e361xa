@@ -147,7 +147,7 @@ value=1N645
 T 74000 55000 5 10 0 0 0 0 1
 device=DIODE
 T 74000 54900 5 10 0 0 0 0 1
-devmap=MicroCommercial/6A4-TP
+devmap=Fairchild/1N3070TR
 }
 N 74000 55500 72400 55500 4
 C 75400 56900 1 0 1 diode-1.sym
@@ -159,7 +159,7 @@ value=1N645
 T 75400 57000 5 10 0 0 0 6 1
 device=DIODE
 T 75400 56900 5 10 0 0 0 0 1
-devmap=MicroCommercial/6A4-TP
+devmap=Fairchild/1N3070TR
 }
 C 71000 57300 1 0 0 resistor-1.sym
 {
@@ -204,7 +204,7 @@ value=1N645
 T 82500 53000 5 10 0 0 270 2 1
 device=DIODE
 T 82600 53000 5 10 0 0 0 0 1
-devmap=MicroCommercial/6A4-TP
+devmap=Fairchild/1N3070TR
 }
 C 82600 51500 1 90 1 diode-1.sym
 {
@@ -215,7 +215,7 @@ value=1N645
 T 82500 51500 5 10 0 0 270 2 1
 device=DIODE
 T 82600 51500 5 10 0 0 0 0 1
-devmap=MicroCommercial/6A4-TP
+devmap=Fairchild/1N3070TR
 }
 N 82000 51500 82000 51600 4
 C 82600 50000 1 90 1 diode-1.sym
@@ -227,7 +227,7 @@ value=1N645
 T 82500 50000 5 10 0 0 270 2 1
 device=DIODE
 T 82600 50000 5 10 0 0 0 0 1
-devmap=MicroCommercial/6A4-TP
+devmap=Fairchild/1N3070TR
 }
 N 82000 50000 82000 50100 4
 N 79000 49000 79000 47500 4

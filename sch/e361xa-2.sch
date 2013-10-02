@@ -976,7 +976,7 @@ value=1N645
 T 54400 43000 5 10 0 0 270 0 1
 device=DIODE
 T 54300 43000 5 10 0 0 0 0 1
-devmap=MicroCommercial/6A4-TP
+devmap=Fairchild/1N3070TR
 }
 N 52500 43500 53000 43500 4
 N 50200 41200 55500 41200 4
@@ -1003,7 +1003,7 @@ value=1N645
 T 58000 41600 5 10 0 0 90 0 1
 device=DIODE
 T 58100 41600 5 10 0 0 0 0 1
-devmap=MicroCommercial/6A4-TP
+devmap=Fairchild/1N3070TR
 }
 N 57500 43000 57500 43500 4
 N 56900 41200 62500 41200 4
@@ -1030,7 +1030,7 @@ value=1N645
 T 41500 41500 5 10 0 0 0 0 1
 device=DIODE
 T 41500 41400 5 10 0 0 0 0 1
-devmap=MicroCommercial/6A4-TP
+devmap=Fairchild/1N3070TR
 }
 C 41500 40600 1 0 0 capacitor-1.sym
 {
@@ -1062,7 +1062,7 @@ value=1N645
 T 57500 48900 5 10 0 0 90 0 1
 device=DIODE
 T 57600 48900 5 10 0 0 0 0 1
-devmap=MicroCommercial/6A4-TP
+devmap=Fairchild/1N3070TR
 }
 C 56700 48000 1 0 0 gnd-1.sym
 N 57000 48600 57000 48900 4
@@ -1141,7 +1141,7 @@ value=1N645
 T 64000 51300 5 10 0 0 90 0 1
 device=DIODE
 T 64100 51300 5 10 0 0 0 0 1
-devmap=MicroCommercial/6A4-TP
+devmap=Fairchild/1N3070TR
 }
 C 63200 53000 1 0 0 netname-1.sym
 {
@@ -1346,7 +1346,7 @@ value=1N645
 T 71600 62500 5 10 0 0 90 0 1
 device=DIODE
 T 71700 62500 5 10 0 0 0 0 1
-devmap=MicroCommercial/6A4-TP
+devmap=Fairchild/1N3070TR
 }
 C 68900 63900 1 270 0 diode-1.sym
 {
@@ -1357,7 +1357,7 @@ value=1N645
 T 69000 63900 5 10 0 0 270 0 1
 device=DIODE
 T 68900 63900 5 10 0 0 0 0 1
-devmap=MicroCommercial/6A4-TP
+devmap=Fairchild/1N3070TR
 }
 N 69500 63900 69500 64000 4
 N 68000 64000 77600 64000 4
@@ -1747,7 +1747,7 @@ value=1N645
 T 96000 68000 5 10 0 0 90 2 1
 device=DIODE
 T 95900 68000 5 10 0 0 0 0 1
-devmap=MicroCommercial/6A4-TP
+devmap=Fairchild/1N3070TR
 }
 C 95900 65600 1 270 1 diode-1.sym
 {
@@ -1758,7 +1758,7 @@ value=1N645
 T 96000 65600 5 10 0 0 90 2 1
 device=DIODE
 T 95900 65600 5 10 0 0 0 0 1
-devmap=MicroCommercial/6A4-TP
+devmap=Fairchild/1N3070TR
 }
 C 96200 64700 1 0 0 gnd-1.sym
 N 96500 65300 96500 65600 4
@@ -1987,7 +1987,7 @@ value=1N645
 T 41500 43500 5 10 0 0 0 0 1
 device=DIODE
 T 41500 43400 5 10 0 0 0 0 1
-devmap=MicroCommercial/6A4-TP
+devmap=Fairchild/1N3070TR
 }
 N 41500 44000 40000 44000 4
 N 45000 42000 45000 55000 4
