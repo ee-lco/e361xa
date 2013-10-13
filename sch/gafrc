@@ -2,5 +2,3 @@
 (reset-source-library)
 (component-library "./lib/sym")
 
-(attribute-name "devmap")
-
