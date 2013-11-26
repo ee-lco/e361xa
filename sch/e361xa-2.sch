@@ -1392,7 +1392,9 @@ refdes=C31
 T 65000 65200 5 16 1 1 0 0 1
 value=4700p
 T 64000 64600 5 10 0 0 0 0 1
-devmap=Panasonic/ECW-HA3C472H
+devmap=TODO
+T 64000 64600 5 10 0 0 0 0 1
+footprint=C_RADIAL_300.fp
 }
 N 64000 65000 63000 65000 4
 N 63000 55500 63000 65000 4
@@ -2658,11 +2660,23 @@ C 3400 51800 1 0 0 input-3.sym
 T 3400 51800 5 10 0 0 0 0 1
 device=INPUT
 T 3400 51800 5 10 0 0 0 0 1
-devmap=Molex/39-29-9042
+devmap=TODO
 T 3900 51900 5 16 1 1 0 2 1
 refdes=J6
 T 3900 52050 5 16 1 1 0 0 1
 slot=1
+T 3400 51800 5 10 0 0 0 0 1
+footprint=HEADER_7S.fp
+T 3400 51800 5 10 0 0 0 0 1
+slotdef=1:1
+T 3400 51800 5 10 0 0 0 0 1
+slotdef=2:3
+T 3400 51800 5 10 0 0 0 0 1
+slotdef=3:5
+T 3400 51800 5 10 0 0 0 0 1
+slotdef=4:7
+T 3400 51800 5 10 0 0 0 0 1
+numslots=4
 }
 N 2800 52000 2500 52000 4
 C 2800 50200 1 0 0 output-3.sym
@@ -2677,11 +2691,23 @@ C 3400 50200 1 0 0 input-3.sym
 T 3400 50200 5 10 0 0 0 0 1
 device=INPUT
 T 3400 50200 5 10 0 0 0 0 1
-devmap=Molex/39-29-9042
+devmap=TODO
 T 3900 50300 5 16 1 1 0 2 1
 refdes=J6
 T 3900 50450 5 16 1 1 0 0 1
 slot=2
+T 3400 50200 5 10 0 0 0 0 1
+footprint=HEADER_7S.fp
+T 3400 50200 5 10 0 0 0 0 1
+slotdef=1:1
+T 3400 50200 5 10 0 0 0 0 1
+slotdef=2:3
+T 3400 50200 5 10 0 0 0 0 1
+slotdef=3:5
+T 3400 50200 5 10 0 0 0 0 1
+slotdef=4:7
+T 3400 50200 5 10 0 0 0 0 1
+numslots=4
 }
 N 2800 50400 2500 50400 4
 C 2800 47000 1 0 0 output-3.sym
@@ -2696,11 +2722,23 @@ C 3400 47000 1 0 0 input-3.sym
 T 3400 47000 5 10 0 0 0 0 1
 device=INPUT
 T 3400 47000 5 10 0 0 0 0 1
-devmap=Molex/39-29-9042
+devmap=TODO
 T 3900 47100 5 16 1 1 0 2 1
 refdes=J6
 T 3900 47250 5 16 1 1 0 0 1
 slot=3
+T 3400 47000 5 10 0 0 0 0 1
+footprint=HEADER_7S.fp
+T 3400 47000 5 10 0 0 0 0 1
+slotdef=1:1
+T 3400 47000 5 10 0 0 0 0 1
+slotdef=2:3
+T 3400 47000 5 10 0 0 0 0 1
+slotdef=3:5
+T 3400 47000 5 10 0 0 0 0 1
+slotdef=4:7
+T 3400 47000 5 10 0 0 0 0 1
+numslots=4
 }
 N 2800 47200 2500 47200 4
 C 2800 43800 1 0 0 output-3.sym
@@ -2715,11 +2753,23 @@ C 3400 43800 1 0 0 input-3.sym
 T 3400 43800 5 10 0 0 0 0 1
 device=INPUT
 T 3400 43800 5 10 0 0 0 0 1
-devmap=Molex/39-29-9042
+devmap=TODO
 T 3900 43900 5 16 1 1 0 2 1
 refdes=J6
 T 3900 44050 5 16 1 1 0 0 1
 slot=4
+T 3400 43800 5 10 0 0 0 0 1
+footprint=HEADER_7S.fp
+T 3400 43800 5 10 0 0 0 0 1
+slotdef=1:1
+T 3400 43800 5 10 0 0 0 0 1
+slotdef=2:3
+T 3400 43800 5 10 0 0 0 0 1
+slotdef=3:5
+T 3400 43800 5 10 0 0 0 0 1
+slotdef=4:7
+T 3400 43800 5 10 0 0 0 0 1
+numslots=4
 }
 N 2800 44000 2500 44000 4
 C 53300 36300 1 180 0 netname-1.sym

@@ -765,9 +765,19 @@ device=INPUT
 T 11400 48400 5 16 1 1 0 2 1
 refdes=J2
 T 11400 48550 5 16 1 1 0 0 1
-slot=3
+slot=2
 T 10900 48300 5 10 0 0 0 0 1
-devmap=Molex/39-29-9062
+devmap=TODO
+T 10900 48300 5 10 0 0 0 0 1
+footprint=HEADER_5S.fp
+T 10900 48300 5 10 0 0 0 0 1
+slotdef=1:1
+T 10900 48300 5 10 0 0 0 0 1
+slotdef=2:3
+T 10900 48300 5 10 0 0 0 0 1
+slotdef=3:5
+T 10900 48300 5 10 0 0 0 0 1
+numslots=3
 }
 N 11500 48500 12000 48500 4
 N 12000 48500 12000 47400 4
@@ -788,7 +798,17 @@ refdes=J2
 T 11400 50550 5 16 1 1 0 0 1
 slot=1
 T 10900 50300 5 10 0 0 0 0 1
-devmap=Molex/39-29-9062
+devmap=TODO
+T 10900 50300 5 10 0 0 0 0 1
+footprint=HEADER_5S.fp
+T 10900 50300 5 10 0 0 0 0 1
+slotdef=1:1
+T 10900 50300 5 10 0 0 0 0 1
+slotdef=2:3
+T 10900 50300 5 10 0 0 0 0 1
+slotdef=3:5
+T 10900 50300 5 10 0 0 0 0 1
+numslots=3
 }
 C 10900 49300 1 0 0 input-3.sym
 {
@@ -797,9 +817,19 @@ device=INPUT
 T 11400 49400 5 16 1 1 0 2 1
 refdes=J2
 T 11400 49550 5 16 1 1 0 0 1
-slot=2
+slot=3
 T 10900 49300 5 10 0 0 0 0 1
-devmap=Molex/39-29-9062
+devmap=TODO
+T 10900 49300 5 10 0 0 0 0 1
+footprint=HEADER_5S.fp
+T 10900 49300 5 10 0 0 0 0 1
+slotdef=1:1
+T 10900 49300 5 10 0 0 0 0 1
+slotdef=2:3
+T 10900 49300 5 10 0 0 0 0 1
+slotdef=3:5
+T 10900 49300 5 10 0 0 0 0 1
+numslots=3
 }
 N 10300 50500 9300 50500 4
 C 10300 49300 1 0 0 output-3.sym
@@ -822,7 +852,15 @@ refdes=J4
 T 20100 46550 5 16 1 1 0 6 1
 slot=2
 T 20000 46300 5 10 0 0 0 0 1
-devmap=Molex/39-29-9042
+devmap=TODO
+T 20000 46300 5 10 0 0 0 0 1
+footprint=HEADER_3S.fp
+T 20000 46300 5 10 0 0 0 0 1
+slotdef=1:1
+T 20000 46300 5 10 0 0 0 0 1
+slotdef=2:3
+T 20000 46300 5 10 0 0 0 0 1
+numslots=2
 }
 C 20600 46300 1 0 0 input-3.sym
 {
@@ -841,7 +879,15 @@ refdes=J4
 T 20100 44950 5 16 1 1 0 6 1
 slot=1
 T 20000 44700 5 10 0 0 0 0 1
-devmap=Molex/39-29-9042
+devmap=TODO
+T 20000 44700 5 10 0 0 0 0 1
+footprint=HEADER_3S.fp
+T 20000 44700 5 10 0 0 0 0 1
+slotdef=1:1
+T 20000 44700 5 10 0 0 0 0 1
+slotdef=2:3
+T 20000 44700 5 10 0 0 0 0 1
+numslots=2
 }
 C 20600 44700 1 0 0 input-3.sym
 {
@@ -865,9 +911,21 @@ device=INPUT
 T 25400 54400 5 16 1 1 0 2 1
 refdes=J5
 T 25400 54550 5 16 1 1 0 0 1
-slot=3
+slot=2
 T 24900 54300 5 10 0 0 0 0 1
-devmap=Molex/39-29-9042
+devmap=TODO
+T 24900 54300 5 10 0 0 0 0 1
+footprint=HEADER_7S.fp
+T 24900 54300 5 10 0 0 0 0 1
+slotdef=1:1
+T 24900 54300 5 10 0 0 0 0 1
+slotdef=2:3
+T 24900 54300 5 10 0 0 0 0 1
+slotdef=3:5
+T 24900 54300 5 10 0 0 0 0 1
+slotdef=4:7
+T 24900 54300 5 10 0 0 0 0 1
+numslots=4
 }
 N 24300 54500 24000 54500 4
 C 24300 52700 1 0 0 output-3.sym
@@ -882,11 +940,23 @@ C 24900 52700 1 0 0 input-3.sym
 T 24900 52700 5 10 0 0 0 0 1
 device=INPUT
 T 24900 52700 5 10 0 0 0 0 1
-devmap=Molex/39-29-9042
+devmap=TODO
 T 25400 52800 5 16 1 1 0 2 1
 refdes=J5
 T 25400 52950 5 16 1 1 0 0 1
 slot=1
+T 24900 52700 5 10 0 0 0 0 1
+footprint=HEADER_7S.fp
+T 24900 52700 5 10 0 0 0 0 1
+slotdef=1:1
+T 24900 52700 5 10 0 0 0 0 1
+slotdef=2:3
+T 24900 52700 5 10 0 0 0 0 1
+slotdef=3:5
+T 24900 52700 5 10 0 0 0 0 1
+slotdef=4:7
+T 24900 52700 5 10 0 0 0 0 1
+numslots=4
 }
 N 24300 52900 24000 52900 4
 C 24300 46300 1 0 0 output-3.sym
@@ -901,11 +971,23 @@ C 24900 46300 1 0 0 input-3.sym
 T 24900 46300 5 10 0 0 0 0 1
 device=INPUT
 T 24900 46300 5 10 0 0 0 0 1
-devmap=Molex/39-29-9042
+devmap=TODO
 T 25400 46400 5 16 1 1 0 2 1
 refdes=J5
 T 25400 46550 5 16 1 1 0 0 1
-slot=2
+slot=4
+T 24900 46300 5 10 0 0 0 0 1
+footprint=HEADER_7S.fp
+T 24900 46300 5 10 0 0 0 0 1
+slotdef=1:1
+T 24900 46300 5 10 0 0 0 0 1
+slotdef=2:3
+T 24900 46300 5 10 0 0 0 0 1
+slotdef=3:5
+T 24900 46300 5 10 0 0 0 0 1
+slotdef=4:7
+T 24900 46300 5 10 0 0 0 0 1
+numslots=4
 }
 N 24300 46500 24000 46500 4
 C 24300 44700 1 0 0 output-3.sym
@@ -920,11 +1002,23 @@ C 24900 44700 1 0 0 input-3.sym
 T 24900 44700 5 10 0 0 0 0 1
 device=INPUT
 T 24900 44700 5 10 0 0 0 0 1
-devmap=Molex/39-29-9042
+devmap=TODO
 T 25400 44800 5 16 1 1 0 2 1
 refdes=J5
 T 25400 44950 5 16 1 1 0 0 1
-slot=4
+slot=3
+T 24900 44700 5 10 0 0 0 0 1
+footprint=HEADER_7S.fp
+T 24900 44700 5 10 0 0 0 0 1
+slotdef=1:1
+T 24900 44700 5 10 0 0 0 0 1
+slotdef=2:3
+T 24900 44700 5 10 0 0 0 0 1
+slotdef=3:5
+T 24900 44700 5 10 0 0 0 0 1
+slotdef=4:7
+T 24900 44700 5 10 0 0 0 0 1
+numslots=4
 }
 N 24300 44900 24000 44900 4
 N 65500 49200 65500 48500 4
@@ -938,3 +1032,13 @@ T 63200 49000 5 10 0 0 0 0 1
 devmap=generic/TestPad
 }
 N 63500 49000 63500 48500 4
+C 42700 43200 1 0 0 testpt-2.sym
+{
+T 42800 43900 5 10 0 0 0 0 1
+device=TESTPOINT
+T 42700 43200 5 10 0 0 0 0 1
+devmap=generic/TestPin
+T 43000 44000 5 16 1 1 0 3 1
+refdes=TP6
+}
+N 43000 43200 43000 43000 4
