@@ -20,7 +20,7 @@ refdes=U4
 T 52100 54100 5 16 1 1 180 2 1
 value=LM339
 T 54100 54700 5 10 0 0 0 0 1
-devmap=Fairchild/LM339N-2
+devmap=HP/1826-0138-2
 }
 C 54100 56800 1 0 1 opamp-with-supply-2.sym
 {
@@ -43,7 +43,7 @@ refdes=U4
 T 52100 57400 5 16 1 1 0 8 1
 value=LM339
 T 54100 56800 5 10 0 0 0 0 1
-devmap=Fairchild/LM339N-1
+devmap=HP/1826-0138-1
 }
 C 54100 45700 1 180 0 opamp-no-supply-1.sym
 {
@@ -66,7 +66,7 @@ refdes=U4
 T 52100 45100 5 16 1 1 180 2 1
 value=LM339
 T 54100 45700 5 10 0 0 0 0 1
-devmap=Fairchild/LM339N-3
+devmap=HP/1826-0138-3
 }
 C 42000 54000 1 0 1 opamp-with-supply-2.sym
 {
@@ -77,7 +77,7 @@ refdes=U3
 T 40000 54600 5 16 1 1 0 8 1
 value=LM393N
 T 42000 54000 5 10 0 0 0 0 1
-devmap=Fairchild/LM393N-1
+devmap=HP/1826-0412-1
 T 42000 54000 5 10 0 0 0 0 1
 slotdef=1:3,2,8,4,1
 T 42000 54000 5 10 0 0 0 0 1
@@ -96,7 +96,7 @@ refdes=U3
 T 40000 47200 5 16 1 1 0 8 1
 value=LM393N
 T 42000 46600 5 10 0 0 0 0 1
-devmap=Fairchild/LM393N-2
+devmap=HP/1826-0412-2
 T 42000 46600 5 10 0 0 0 0 1
 slotdef=1:3,2,8,4,1
 T 42000 46600 5 10 0 0 0 0 1
@@ -164,7 +164,7 @@ refdes=R23
 T 47400 54700 5 16 1 1 0 2 1
 value=82.5k
 T 46800 55500 5 10 0 0 0 0 1
-devmap=KOA-Speer/MF1_4DC8252F
+devmap=HP/0757-0463
 }
 C 46800 57900 1 270 0 resistor-1.sym
 {
@@ -175,7 +175,7 @@ refdes=R22
 T 47400 57100 5 16 1 1 0 2 1
 value=31.6k
 T 46800 57900 5 10 0 0 0 0 1
-devmap=KOA-Speer/MF1_4DC3162F
+devmap=HP/0698-3160
 }
 C 46700 58700 1 0 0 netname-2.sym
 {
@@ -198,7 +198,7 @@ refdes=R20
 T 47400 45700 5 16 1 1 0 2 1
 value=82.5k
 T 46800 46500 5 10 0 0 0 0 1
-devmap=KOA-Speer/MF1_4DC8252F
+devmap=HP/0757-0463
 }
 C 46800 48900 1 270 0 resistor-1.sym
 {
@@ -209,7 +209,7 @@ refdes=R21
 T 47400 48100 5 16 1 1 0 2 1
 value=31.6k
 T 46800 48900 5 10 0 0 0 0 1
-devmap=KOA-Speer/MF1_4DC3162F
+devmap=HP/0698-3160
 }
 C 46700 49700 1 0 0 netname-2.sym
 {
@@ -244,7 +244,7 @@ slotdef=3:9,8,14
 T 54100 50200 5 10 0 0 0 0 1
 slotdef=4:11,10,13
 T 54100 50200 5 10 0 0 0 0 1
-devmap=Fairchild/LM339N-4
+devmap=HP/1826-0138-4
 }
 C 64100 49800 1 0 1 opamp-no-supply-1.sym
 {
@@ -267,7 +267,7 @@ refdes=U5
 T 62100 50400 5 16 1 1 0 8 1
 value=LM339
 T 64100 49800 5 10 0 0 0 0 1
-devmap=Fairchild/LM339N-2
+devmap=HP/1826-0138-2
 }
 C 64100 44100 1 0 1 opamp-no-supply-1.sym
 {
@@ -290,7 +290,7 @@ refdes=U5
 T 62100 44700 5 16 1 1 0 8 1
 value=LM339
 T 64100 44100 5 10 0 0 0 0 1
-devmap=Fairchild/LM339N-3
+devmap=HP/1826-0138-3
 }
 N 51500 58000 49500 58000 4
 N 49500 58000 49500 53500 4
@@ -308,7 +308,7 @@ refdes=R24
 T 57400 58200 5 16 1 1 0 2 1
 value=10k
 T 56800 59000 5 10 0 0 0 0 1
-devmap=KOA-Speer/MF1_4DC1002F
+devmap=HP/0757-0442
 }
 C 56700 59700 1 0 0 15V-plus-1.sym
 N 57000 59700 57000 59000 4
@@ -344,7 +344,7 @@ refdes=R27
 T 57400 51700 5 16 1 1 0 2 1
 value=10k
 T 56800 52500 5 10 0 0 0 0 1
-devmap=KOA-Speer/MF1_4DC1002F
+devmap=HP/0757-0442
 }
 C 56700 53200 1 0 0 15V-plus-1.sym
 N 57000 53200 57000 52500 4
@@ -358,7 +358,7 @@ refdes=R26
 T 57400 46000 5 16 1 1 0 2 1
 value=10k
 T 56800 46800 5 10 0 0 0 0 1
-devmap=KOA-Speer/MF1_4DC1002F
+devmap=HP/0757-0442
 }
 C 56700 47500 1 0 0 15V-plus-1.sym
 N 57000 47500 57000 46800 4
@@ -384,7 +384,7 @@ refdes=U5
 T 62100 56900 5 16 1 1 0 8 1
 value=LM339
 T 64100 56300 5 10 0 0 0 0 1
-devmap=Fairchild/LM339N-1
+devmap=HP/1826-0138-1
 }
 C 62800 59200 1 0 0 15V-plus-1.sym
 N 63100 59200 63100 58700 4
@@ -399,7 +399,7 @@ refdes=R25
 T 61700 60800 5 16 1 1 0 3 1
 value=562k
 T 61000 60300 5 10 0 0 0 0 1
-devmap=KOA-Speer/MF1_4DC5623F
+devmap=HP/0698-8824
 }
 N 61000 60500 60000 60500 4
 N 60000 60500 60000 57500 4
@@ -417,7 +417,7 @@ refdes=R33
 T 62700 53800 5 16 1 1 0 3 1
 value=562k
 T 62000 53300 5 10 0 0 0 0 1
-devmap=KOA-Speer/MF1_4DC5623F
+devmap=HP/0698-8824
 }
 N 65500 53500 63400 53500 4
 N 65500 51800 65500 53500 4
@@ -433,7 +433,7 @@ refdes=R30
 T 62700 48000 5 16 1 1 0 3 1
 value=562k
 T 62000 47500 5 10 0 0 0 0 1
-devmap=KOA-Speer/MF1_4DC5623F
+devmap=HP/0698-8824
 }
 N 65500 47700 63400 47700 4
 N 65500 46100 65500 47700 4
@@ -458,7 +458,7 @@ refdes=R35
 T 69200 57500 5 16 1 1 0 3 1
 value=2.15k
 T 68500 57000 5 10 0 0 0 0 1
-devmap=KOA-Speer/MF1_4DC2151F
+devmap=HP/0698-0084
 }
 C 68500 49500 1 0 0 resistor-1.sym
 {
@@ -469,7 +469,7 @@ refdes=R31
 T 69200 50000 5 16 1 1 0 3 1
 value=2.15k
 T 68500 49500 5 10 0 0 0 0 1
-devmap=KOA-Speer/MF1_4DC2151F
+devmap=HP/0698-0084
 }
 C 68500 44800 1 0 0 resistor-1.sym
 {
@@ -480,7 +480,7 @@ refdes=R32
 T 69200 45300 5 16 1 1 0 3 1
 value=2.15k
 T 68500 44800 5 10 0 0 0 0 1
-devmap=KOA-Speer/MF1_4DC2151F
+devmap=HP/0698-0084
 }
 C 74600 56000 1 0 1 opamp-with-supply-2.sym
 {
@@ -499,7 +499,7 @@ slotdef=3:10,9,8
 T 74600 56000 5 10 0 0 0 6 1
 slotdef=4:3,2,1
 T 74600 56000 5 10 0 0 0 0 1
-devmap=TI/LF347BN-1
+devmap=HP/1826-0665-1
 T 74600 56000 5 10 0 0 0 0 1
 slot=1
 T 74600 56000 5 10 0 0 0 0 1
@@ -524,7 +524,7 @@ slotdef=4:3,2,1
 T 74600 50900 5 10 0 0 180 0 1
 slot=2
 T 74600 50900 5 10 0 0 0 0 1
-devmap=TI/LF347BN-2
+devmap=HP/1826-0665-2
 T 74600 50900 5 10 0 0 0 0 1
 numslots=4
 }
@@ -547,7 +547,7 @@ slotdef=4:3,2,1
 T 74600 46200 5 10 0 0 180 0 1
 slot=3
 T 74600 46200 5 10 0 0 0 0 1
-devmap=TI/LF347BN-3
+devmap=HP/1826-0665-3
 T 74600 46200 5 10 0 0 0 0 1
 numslots=4
 }
@@ -570,7 +570,7 @@ slotdef=4:3,2,1
 T 41500 42900 5 10 0 0 180 0 1
 slot=4
 T 41500 42900 5 10 0 0 0 0 1
-devmap=TI/LF347BN-4
+devmap=HP/1826-0665-4
 T 41500 42900 5 10 0 0 0 0 1
 numslots=4
 }
@@ -585,7 +585,7 @@ refdes=C14
 T 74700 60500 5 16 1 1 0 2 1
 value=0.01u
 T 74100 61500 5 10 0 0 0 0 1
-devmap=TDK/FK18X7R2A103K
+devmap=HP/0160-4832
 }
 C 74200 59200 1 0 0 gnd-1.sym
 N 74500 59800 74500 60100 4
@@ -605,7 +605,7 @@ refdes=C13
 T 74700 54400 5 16 1 1 0 2 1
 value=0.01u
 T 74100 55400 5 10 0 0 0 0 1
-devmap=TDK/FK18X7R2A103K
+devmap=HP/0160-4832
 }
 C 74200 53100 1 0 0 gnd-1.sym
 N 74500 53700 74500 54000 4
@@ -632,7 +632,7 @@ refdes=R37
 T 78400 57700 5 16 1 1 0 2 1
 value=10k
 T 77800 58500 5 10 0 0 0 0 1
-devmap=KOA-Speer/MF1_4DC1002F
+devmap=HP/0757-0442
 }
 C 77800 55000 1 270 0 resistor-1.sym
 {
@@ -651,13 +651,13 @@ value=[16] 8.25k
 T 79000 53500 5 16 1 1 0 0 1
 value=[17] 9.53k
 T 77800 55000 5 10 0 0 0 0 1
-devmap=[14] KOA-Speer/MF1_4DC7321F
+devmap=[14] HP/0698-3518
 T 77800 55000 5 10 0 0 0 0 1
-devmap=[15] KOA-Speer/MF1_4DC6811F
+devmap=[15] HP/0757-0439
 T 77800 55000 5 10 0 0 0 0 1
-devmap=[16] KOA-Speer/MF1_4DC8251F
+devmap=[16] HP/0757-0441
 T 77800 55000 5 10 0 0 0 0 1
-devmap=[17] KOA-Speer/MF1_4DC9531F
+devmap=[17] HP/0698-8580
 }
 C 77800 47000 1 270 0 resistor-1.sym
 {
@@ -676,13 +676,13 @@ value=[16] 8.66k
 T 79100 45500 5 16 1 1 0 0 1
 value=[17] 10k
 T 77800 47000 5 10 0 0 0 0 1
-devmap=[14] KOA-Speer/MF1_4DC7501F
+devmap=[14] HP/0757-0440
 T 77800 47000 5 10 0 0 0 0 1
-devmap=[15] KOA-Speer/MF1_4DC7151F
+devmap=[15] HP/0698-4471
 T 77800 47000 5 10 0 0 0 0 1
-devmap=[16] KOA-Speer/MF1_4DC8661F
+devmap=[16] HP/0698-3498
 T 77800 47000 5 10 0 0 0 0 1
-devmap=[17] KOA-Speer/MF1_4DC1002F
+devmap=[17] HP/0757-0442
 }
 C 77800 43500 1 270 0 resistor-1.sym
 {
@@ -701,13 +701,13 @@ value=[16] 5.23k
 T 79100 42000 5 16 1 1 0 0 1
 value=[17] 6.81k
 T 77800 43500 5 10 0 0 0 0 1
-devmap=[14] KOA-Speer/MF1_4DC2431F
+devmap=[14] HP/0757-0431
 T 77800 43500 5 10 0 0 0 0 1
-devmap=[15] KOA-Speer/MF1_4DC3091F
+devmap=[15] HP/0698-4438
 T 77800 43500 5 10 0 0 0 0 1
-devmap=[16] KOA-Speer/MF1_4DC5231F
+devmap=[16] HP/0698-0063
 T 77800 43500 5 10 0 0 0 0 1
-devmap=[17] KOA-Speer/MF1_4DC6811F
+devmap=[17] HP/0757-0439
 }
 C 77800 41000 1 270 0 resistor-1.sym
 {
@@ -718,7 +718,7 @@ refdes=R34
 T 78400 40200 5 16 1 1 0 2 1
 value=9.09k
 T 77800 41000 5 10 0 0 0 0 1
-devmap=KOA-Speer/MF1_4DC9091F
+devmap=HP/0757-0288
 }
 C 76100 40400 1 270 0 capacitor-1.sym
 {
@@ -729,7 +729,7 @@ refdes=C15
 T 76700 39400 5 16 1 1 0 2 1
 value=0.01u
 T 76100 40400 5 10 0 0 0 0 1
-devmap=TDK/FK18X7R2A103K
+devmap=HP/0160-4832
 }
 C 73700 40500 1 180 1 vref-zener-adj-1.sym
 {
@@ -740,7 +740,7 @@ value=LM336BZ-5.0
 T 73800 40700 5 10 0 0 180 6 1
 device=ZENER_DIODE
 T 73700 40500 5 10 0 0 0 0 1
-devmap=TI/LM336BZ-5.0
+devmap=HP/1826-1297
 }
 C 72400 39400 1 0 0 nc-left-1.sym
 {
@@ -784,7 +784,7 @@ refdes=R38
 T 80900 56200 5 16 1 1 0 2 1
 value=10k
 T 80300 57000 5 10 0 0 0 0 1
-devmap=KOA-Speer/MF1_4DC1002F
+devmap=HP/0757-0442
 }
 N 80500 52500 80500 55600 4
 C 84200 52200 1 270 1 netname-1.sym
@@ -811,13 +811,13 @@ value=[16] 66.5k
 T 82400 51900 5 16 1 1 0 0 1
 value=[17] 121k
 T 81000 52300 5 10 0 0 0 0 1
-devmap=[14] KOA-Speer/MF1_4DC8061F
+devmap=[14] HP/0698-4473
 T 81000 52300 5 10 0 0 0 0 1
-devmap=[15] KOA-Speer/MF1_4DC3322F
+devmap=[15] HP/0757-0454
 T 81000 52300 5 10 0 0 0 0 1
-devmap=[16] KOA-Speer/MF1_4DC6652F
+devmap=[16] HP/0698-4503
 T 81000 52300 5 10 0 0 0 0 1
-devmap=[17] KOA-Speer/MF1_4DC1213F
+devmap=[17] HP/0757-0467
 }
 N 84200 52500 82400 52500 4
 N 80500 59000 86000 59000 4
@@ -831,7 +831,7 @@ refdes=R28
 T 39700 44300 5 16 1 1 0 3 1
 value=49.9k
 T 39000 43800 5 10 0 0 0 0 1
-devmap=KOA-Speer/MF1_4DC4992F
+devmap=HP/0698-3228
 }
 C 43500 42300 1 0 0 resistor-1.sym
 {
@@ -842,7 +842,7 @@ refdes=R29
 T 44200 42800 5 16 1 1 0 3 1
 value=46.4k
 T 43500 42300 5 10 0 0 0 0 1
-devmap=KOA-Speer/MF1_4DC4642F
+devmap=HP/0698-3162
 }
 C 45700 42200 1 270 1 netname-1.sym
 {
