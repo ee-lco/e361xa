@@ -1392,7 +1392,7 @@ refdes=C31
 T 65000 65200 5 16 1 1 0 0 1
 value=4700p
 T 64000 64600 5 10 0 0 0 0 1
-devmap=TODO
+devmap=HP/0160-7075
 T 64000 64600 5 10 0 0 0 0 1
 footprint=C_RADIAL_300.fp
 }
