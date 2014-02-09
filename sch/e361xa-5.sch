@@ -430,7 +430,7 @@ slot=1
 T 42600 58000 5 10 0 0 0 0 1
 devmap=TODO
 T 42600 58000 5 10 0 0 0 0 1
-footprint=DIP_8.fp
+footprint=PULSE_TRANSFORMER_8.fp
 }
 C 41900 59000 1 0 1 transformer-2t-2.sym
 {
@@ -451,7 +451,7 @@ slot=3
 T 41900 59000 5 10 0 0 0 0 1
 devmap=TODO
 T 41900 59000 5 10 0 0 0 0 1
-footprint=DIP_8.fp
+footprint=PULSE_TRANSFORMER_8.fp
 }
 C 41900 57000 1 0 1 transformer-2t-2.sym
 {
@@ -472,7 +472,7 @@ slot=2
 T 41900 57000 5 10 0 0 0 0 1
 devmap=TODO
 T 41900 57000 5 10 0 0 0 0 1
-footprint=DIP_8.fp
+footprint=PULSE_TRANSFORMER_8.fp
 }
 L 42400 56600 42400 61000 3 10 2 0 -1 -1
 L 42100 56600 42100 61000 3 10 2 0 -1 -1
@@ -791,7 +791,7 @@ refdes=T2
 T 42600 42000 5 10 0 0 0 0 1
 devmap=TODO
 T 42600 42000 5 10 0 0 0 0 1
-footprint=DIP_8.fp
+footprint=PULSE_TRANSFORMER_8.fp
 }
 C 41900 43000 1 0 1 transformer-2t-2.sym
 {
@@ -812,7 +812,7 @@ slot=3
 T 41900 43000 5 10 0 0 0 0 1
 devmap=TODO
 T 41900 43000 5 10 0 0 0 0 1
-footprint=DIP_8.fp
+footprint=PULSE_TRANSFORMER_8.fp
 }
 C 41900 41000 1 0 1 transformer-2t-2.sym
 {
@@ -833,7 +833,7 @@ slot=2
 T 41900 41000 5 10 0 0 0 0 1
 devmap=TODO
 T 41900 41000 5 10 0 0 0 0 1
-footprint=DIP_8.fp
+footprint=PULSE_TRANSFORMER_8.fp
 }
 L 42400 40600 42400 45000 3 10 2 0 -1 -1
 L 42100 40600 42100 45000 3 10 2 0 -1 -1
