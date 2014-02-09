@@ -1,0 +1,7 @@
+*~
+.*.swp
+
+PCB.*.backup
+*.pcb.bak*
+*.pcb-
+
