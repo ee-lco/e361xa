@@ -704,29 +704,35 @@ C 63200 39000 1 0 0 testpt-2.sym
 {
 T 63300 39700 5 10 0 0 0 0 1
 device=TESTPOINT
-T 63500 39800 5 16 1 1 0 3 1
-refdes=TP23
-T 63200 39000 5 10 0 0 0 0 1
-devmap=generic/TestPad
+T 63500 39800 5 16 0 0 0 3 1
+refdes=REF3
+T 63500 39500 5 16 1 1 0 4 1
+comment=3
+T 63400 40100 5 10 0 0 0 0 1
+graphical=1
 }
 C 44600 56500 1 0 0 testpt-2.sym
 {
 T 44700 57200 5 10 0 0 0 0 1
 device=TESTPOINT
-T 44900 57300 5 16 1 1 0 3 1
-refdes=TP25
-T 44600 56500 5 10 0 0 0 0 1
-devmap=generic/TestPad
+T 44900 57300 5 16 0 0 0 3 1
+refdes=REF5
+T 44900 57000 5 16 1 1 0 4 1
+comment=5
+T 44900 57000 5 10 0 0 0 0 1
+graphical=1
 }
 N 63500 39000 63500 38500 4
 C 63200 37000 1 0 0 testpt-2.sym
 {
 T 63300 37700 5 10 0 0 0 0 1
 device=TESTPOINT
-T 63500 37800 5 16 1 1 0 3 1
-refdes=TP24
+T 63500 37800 5 16 0 0 0 3 1
+refdes=REF4
+T 63500 37500 5 16 1 1 0 4 1
+comment=4
 T 63200 37000 5 10 0 0 0 0 1
-devmap=generic/TestPad
+graphical=1
 }
 N 63500 37000 63500 36500 4
 L 22900 55000 22900 44500 3 10 2 0 -1 -1
@@ -1026,10 +1032,12 @@ C 63200 49000 1 0 0 testpt-2.sym
 {
 T 63300 49700 5 10 0 0 0 0 1
 device=TESTPOINT
-T 63500 49800 5 16 1 1 0 3 1
-refdes=TP22
-T 63200 49000 5 10 0 0 0 0 1
-devmap=generic/TestPad
+T 63500 49800 5 16 0 0 0 3 1
+refdes=REF2
+T 63500 49500 5 16 1 1 0 4 1
+comment=2
+T 64400 51100 5 10 0 0 0 0 1
+graphical=1
 }
 N 63500 49000 63500 48500 4
 C 42700 43200 1 0 0 testpt-2.sym

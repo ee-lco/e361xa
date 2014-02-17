@@ -112,10 +112,12 @@ C 36200 56500 1 0 0 testpt-2.sym
 {
 T 36300 57200 5 10 0 0 0 0 1
 device=TESTPOINT
-T 36500 57300 5 16 1 1 0 3 1
-refdes=TP26
-T 36200 56500 5 10 0 0 0 0 1
-devmap=generic/TestPad
+T 36500 57300 5 16 0 0 0 3 1
+refdes=REF6
+T 36500 57000 5 16 1 1 0 4 1
+comment=6
+T 36600 56900 5 10 0 0 0 0 1
+graphical=1
 }
 C 40700 56700 1 0 0 netname-2.sym
 {
@@ -137,10 +139,12 @@ C 36200 49000 1 0 0 testpt-2.sym
 {
 T 36300 49700 5 10 0 0 0 0 1
 device=TESTPOINT
-T 36500 49800 5 16 1 1 0 3 1
-refdes=TP27
-T 36200 49000 5 10 0 0 0 0 1
-devmap=generic/TestPad
+T 36500 49800 5 16 0 0 0 3 1
+refdes=REF7
+T 36500 49500 5 16 1 1 0 4 1
+comment=7
+T 36300 49600 5 10 0 0 0 0 1
+graphical=1
 }
 N 35300 47800 39400 47800 4
 N 36500 47800 36500 49000 4
