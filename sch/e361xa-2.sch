@@ -2294,26 +2294,26 @@ C 118500 65800 1 0 0 output-3.sym
 T 118700 65600 5 10 0 0 0 0 1
 device=OUTPUT
 T 119200 66000 5 16 1 1 0 1 1
-refdes=J3
+refdes=J7
 T 118600 65900 5 16 1 1 0 8 1
 comment=A1
 T 118600 66050 5 16 1 1 0 6 1
-slot=10
+slot=6
 T 118500 65800 5 10 0 0 0 0 1
-devmap=generic/PinHeader-7x2
+devmap=generic/PinHeader-10x1
 }
 C 118500 64800 1 0 0 output-3.sym
 {
 T 118700 64600 5 10 0 0 0 0 1
 device=OUTPUT
 T 119200 65000 5 16 1 1 0 1 1
-refdes=J3
+refdes=J7
 T 118600 64900 5 16 1 1 0 8 1
 comment=Vref
 T 118600 65050 5 16 1 1 0 6 1
-slot=9
+slot=5
 T 118500 64800 5 10 0 0 0 0 1
-devmap=generic/PinHeader-7x2
+devmap=generic/PinHeader-10x1
 }
 N 118500 65000 117900 65000 4
 C 118500 61500 1 0 0 output-3.sym
@@ -2321,65 +2321,65 @@ C 118500 61500 1 0 0 output-3.sym
 T 118700 61300 5 10 0 0 0 0 1
 device=OUTPUT
 T 119200 61700 5 16 1 1 0 1 1
-refdes=J3
+refdes=J7
 T 118600 61600 5 16 1 1 0 8 1
 comment=CC+
 T 118600 61750 5 16 1 1 0 6 1
-slot=7
+slot=3
 T 118500 61500 5 10 0 0 0 0 1
-devmap=generic/PinHeader-7x2
+devmap=generic/PinHeader-10x1
 }
 C 118500 60300 1 0 0 output-3.sym
 {
 T 118700 60100 5 10 0 0 0 0 1
 device=OUTPUT
 T 119200 60500 5 16 1 1 0 1 1
-refdes=J3
+refdes=J7
 T 118600 60400 5 16 1 1 0 8 1
 comment=CC-
 T 118600 60550 5 16 1 1 0 6 1
-slot=8
+slot=4
 T 118500 60300 5 10 0 0 0 0 1
-devmap=generic/PinHeader-7x2
+devmap=generic/PinHeader-10x1
 }
 C 118500 58300 1 0 0 output-3.sym
 {
 T 118700 58100 5 10 0 0 0 0 1
 device=OUTPUT
 T 119200 58500 5 16 1 1 0 1 1
-refdes=J3
+refdes=J6
 T 118600 58400 5 16 1 1 0 8 1
 comment=+OUT
 T 118600 58550 5 16 1 1 0 6 1
 slot=2
 T 118500 58300 5 10 0 0 0 0 1
-devmap=generic/PinHeader-7x2
+devmap=generic/PinHeader-4x1
 }
 C 118500 54800 1 0 0 output-3.sym
 {
 T 118700 54600 5 10 0 0 0 0 1
 device=OUTPUT
 T 119200 55000 5 16 1 1 0 1 1
-refdes=J3
+refdes=J6
 T 118600 54900 5 16 1 1 0 8 1
 comment=+S
 T 118600 55050 5 16 1 1 0 6 1
 slot=1
 T 118500 54800 5 10 0 0 0 0 1
-devmap=generic/PinHeader-7x2
+devmap=generic/PinHeader-4x1
 }
 C 118500 53800 1 0 0 output-3.sym
 {
 T 118700 53600 5 10 0 0 0 0 1
 device=OUTPUT
 T 119200 54000 5 16 1 1 0 1 1
-refdes=J3
+refdes=J7
 T 118600 53900 5 16 1 1 0 8 1
 comment=CV-
 T 118600 54050 5 16 1 1 0 6 1
-slot=6
+slot=2
 T 118500 53800 5 10 0 0 0 0 1
-devmap=generic/PinHeader-7x2
+devmap=generic/PinHeader-10x1
 }
 C 112100 51600 1 0 0 spdt-1.sym
 {
@@ -2397,13 +2397,13 @@ C 118500 52300 1 0 0 output-3.sym
 T 118700 52100 5 10 0 0 0 0 1
 device=OUTPUT
 T 119200 52500 5 16 1 1 0 1 1
-refdes=J3
+refdes=J7
 T 118600 52400 5 16 1 1 0 8 1
 comment=CV+
 T 118600 52550 5 16 1 1 0 6 1
-slot=5
+slot=1
 T 118500 52300 5 10 0 0 0 0 1
-devmap=generic/PinHeader-7x2
+devmap=generic/PinHeader-10x1
 }
 N 113500 52500 118500 52500 4
 C 116400 52200 1 90 1 varistor-1.sym
@@ -2428,39 +2428,39 @@ C 118500 51200 1 0 0 output-3.sym
 T 118700 51000 5 10 0 0 0 0 1
 device=OUTPUT
 T 118600 51450 5 16 1 1 0 6 1
-slot=11
+slot=7
 T 119200 51400 5 16 1 1 0 1 1
-refdes=J3
+refdes=J7
 T 118600 51300 5 16 1 1 0 8 1
 comment=A2
 T 118500 51200 5 10 0 0 0 0 1
-devmap=generic/PinHeader-7x2
+devmap=generic/PinHeader-10x1
 }
 C 118500 46800 1 0 0 output-3.sym
 {
 T 118700 46600 5 10 0 0 0 0 1
 device=OUTPUT
 T 118600 47050 5 16 1 1 0 6 1
-slot=12
+slot=8
 T 119200 47000 5 16 1 1 0 1 1
-refdes=J3
+refdes=J7
 T 118600 46900 5 16 1 1 0 8 1
 comment=A3
 T 118500 46800 5 10 0 0 0 0 1
-devmap=generic/PinHeader-7x2
+devmap=generic/PinHeader-10x1
 }
 C 118500 45800 1 0 0 output-3.sym
 {
 T 118700 45600 5 10 0 0 0 0 1
 device=OUTPUT
 T 118600 46050 5 16 1 1 0 6 1
-slot=13
+slot=9
 T 119200 46000 5 16 1 1 0 1 1
-refdes=J3
+refdes=J7
 T 118600 45900 5 16 1 1 0 8 1
 comment=A4
 T 118500 45800 5 10 0 0 0 0 1
-devmap=generic/PinHeader-7x2
+devmap=generic/PinHeader-10x1
 }
 N 113500 51700 114000 51700 4
 N 114000 51700 114000 47500 4
@@ -2486,11 +2486,11 @@ device=OUTPUT
 T 118600 42550 5 16 1 1 0 6 1
 slot=4
 T 119200 42500 5 16 1 1 0 1 1
-refdes=J3
+refdes=J6
 T 118600 42400 5 16 1 1 0 8 1
 comment=-S
 T 118500 42300 5 10 0 0 0 0 1
-devmap=generic/PinHeader-7x2
+devmap=generic/PinHeader-4x1
 }
 C 118500 39800 1 0 0 output-3.sym
 {
@@ -2510,13 +2510,13 @@ C 118500 35800 1 0 0 output-3.sym
 T 118700 35600 5 10 0 0 0 0 1
 device=OUTPUT
 T 118600 36050 5 16 1 1 0 6 1
-slot=14
+slot=10
 T 119200 36000 5 16 1 1 0 1 1
-refdes=J3
+refdes=J7
 T 118600 35900 5 16 1 1 0 8 1
 comment=A5
 T 118500 35800 5 10 0 0 0 0 1
-devmap=generic/PinHeader-7x2
+devmap=generic/PinHeader-10x1
 }
 C 118500 34300 1 0 0 output-3.sym
 {
@@ -2525,11 +2525,11 @@ device=OUTPUT
 T 118600 34550 5 16 1 1 0 6 1
 slot=3
 T 119200 34500 5 16 1 1 0 1 1
-refdes=J3
+refdes=J6
 T 118600 34400 5 16 1 1 0 8 1
 comment=-OUT
 T 118500 34300 5 10 0 0 0 0 1
-devmap=generic/PinHeader-7x2
+devmap=generic/PinHeader-4x1
 }
 N 118500 36000 115500 36000 4
 N 115500 34500 115500 36700 4
@@ -2662,7 +2662,7 @@ device=INPUT
 T 3400 51800 5 10 0 0 0 0 1
 devmap=TODO
 T 3900 51900 5 16 1 1 0 2 1
-refdes=J6
+refdes=J5
 T 3900 52050 5 16 1 1 0 0 1
 slot=1
 T 3400 51800 5 10 0 0 0 0 1
@@ -2693,7 +2693,7 @@ device=INPUT
 T 3400 50200 5 10 0 0 0 0 1
 devmap=TODO
 T 3900 50300 5 16 1 1 0 2 1
-refdes=J6
+refdes=J5
 T 3900 50450 5 16 1 1 0 0 1
 slot=2
 T 3400 50200 5 10 0 0 0 0 1
@@ -2724,7 +2724,7 @@ device=INPUT
 T 3400 47000 5 10 0 0 0 0 1
 devmap=TODO
 T 3900 47100 5 16 1 1 0 2 1
-refdes=J6
+refdes=J5
 T 3900 47250 5 16 1 1 0 0 1
 slot=3
 T 3400 47000 5 10 0 0 0 0 1
@@ -2755,7 +2755,7 @@ device=INPUT
 T 3400 43800 5 10 0 0 0 0 1
 devmap=TODO
 T 3900 43900 5 16 1 1 0 2 1
-refdes=J6
+refdes=J5
 T 3900 44050 5 16 1 1 0 0 1
 slot=4
 T 3400 43800 5 10 0 0 0 0 1
