@@ -719,7 +719,7 @@ refdes=J1
 T 84500 42100 5 16 1 1 0 6 1
 comment=OVP_LED
 T 85000 41800 5 10 0 0 0 0 1
-devmap=generic/PinHeader-6x2
+devmap=generic/PinHeader-11x1
 }
 C 84500 55700 1 0 1 triac-driver-1.sym
 {

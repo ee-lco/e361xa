@@ -250,7 +250,7 @@ refdes=J1
 T 47600 56550 5 16 1 1 0 6 1
 slot=1
 T 47500 56300 5 10 0 0 0 0 1
-devmap=generic/PinHeader-6x2
+devmap=generic/PinHeader-11x1
 }
 C 47500 50800 1 0 0 output-3.sym
 {
@@ -261,7 +261,7 @@ refdes=J1
 T 47600 51050 5 16 1 1 0 6 1
 slot=2
 T 47500 50800 5 10 0 0 0 0 1
-devmap=generic/PinHeader-6x2
+devmap=generic/PinHeader-11x1
 }
 C 46200 56700 1 0 0 5V-plus-1.sym
 N 46500 56700 46500 56500 4
@@ -663,7 +663,7 @@ refdes=J1
 T 67100 43850 5 16 1 1 0 6 1
 slot=8
 T 67000 43600 5 10 0 0 0 0 1
-devmap=generic/PinHeader-6x2
+devmap=generic/PinHeader-11x1
 }
 C 67000 41300 1 0 0 output-3.sym
 {
@@ -674,7 +674,7 @@ refdes=J1
 T 67100 41550 5 16 1 1 0 6 1
 slot=5
 T 67000 41300 5 10 0 0 0 0 1
-devmap=generic/PinHeader-6x2
+devmap=generic/PinHeader-11x1
 }
 C 67000 38300 1 0 0 output-3.sym
 {
@@ -685,7 +685,7 @@ refdes=J1
 T 67100 38550 5 16 1 1 0 6 1
 slot=10
 T 67000 38300 5 10 0 0 0 0 1
-devmap=generic/PinHeader-6x2
+devmap=generic/PinHeader-11x1
 }
 N 55000 38500 67000 38500 4
 N 65500 36500 65500 37200 4

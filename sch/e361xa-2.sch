@@ -1322,7 +1322,7 @@ slot=4
 T 75000 50300 5 16 1 1 0 6 1
 comment=CV_LED
 T 75300 50000 5 10 0 0 0 0 1
-devmap=generic/PinHeader-6x2
+devmap=generic/PinHeader-11x1
 }
 N 75300 50200 73100 50200 4
 C 75300 44600 1 0 0 output-3.sym
@@ -1336,7 +1336,7 @@ slot=3
 T 75000 44900 5 16 1 1 0 6 1
 comment=CC_LED
 T 75300 44600 5 10 0 0 0 0 1
-devmap=generic/PinHeader-6x2
+devmap=generic/PinHeader-11x1
 }
 N 75300 44800 73100 44800 4
 C 71700 62500 1 90 0 diode-1.sym
@@ -2256,7 +2256,7 @@ device=SWITCH
 T 112800 56400 5 16 1 1 0 6 1
 comment=SENSE
 T 112100 55600 5 10 0 0 0 0 1
-slot=2
+slot=1
 T 112100 55600 5 10 0 0 0 0 1
 devmap=generic/Switch-DPDT
 }
@@ -2288,7 +2288,7 @@ slot=6
 T 118600 69500 5 16 1 1 0 8 1
 comment=I+
 T 118500 69400 5 10 0 0 0 0 1
-devmap=generic/PinHeader-6x2
+devmap=generic/PinHeader-11x1
 }
 N 118500 69600 113400 69600 4
 C 118500 65800 1 0 0 output-3.sym
@@ -2479,7 +2479,7 @@ refdes=J1
 T 118600 43900 5 16 1 1 0 8 1
 comment=V+
 T 118500 43800 5 10 0 0 0 0 1
-devmap=generic/PinHeader-6x2
+devmap=generic/PinHeader-11x1
 }
 C 118500 42300 1 0 0 output-3.sym
 {
@@ -2505,7 +2505,7 @@ refdes=J1
 T 118600 39900 5 16 1 1 0 8 1
 comment=GND
 T 118500 39800 5 10 0 0 0 0 1
-devmap=generic/PinHeader-6x2
+devmap=generic/PinHeader-11x1
 }
 C 118500 35800 1 0 0 output-3.sym
 {
@@ -2576,7 +2576,7 @@ device=SWITCH
 T 112800 40900 5 16 1 1 0 6 1
 comment=SENSE
 T 112100 41100 5 10 0 0 180 6 1
-slot=1
+slot=2
 T 112100 41100 5 10 0 0 180 6 1
 devmap=generic/Switch-DPDT
 }
