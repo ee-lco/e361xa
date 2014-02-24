@@ -1,6 +1,8 @@
 *~
 .*.swp
 
+\#*.sch#
+
 PCB.*.backup
 *.pcb.bak*
 *.pcb-
