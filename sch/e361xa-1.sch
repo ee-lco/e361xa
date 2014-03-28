@@ -923,13 +923,13 @@ devmap=TODO
 T 24900 54300 5 10 0 0 0 0 1
 footprint=HEADER_7S.fp
 T 24900 54300 5 10 0 0 0 0 1
-slotdef=1:1
+slotdef=1:3
 T 24900 54300 5 10 0 0 0 0 1
-slotdef=2:3
+slotdef=2:1
 T 24900 54300 5 10 0 0 0 0 1
-slotdef=3:5
+slotdef=3:7
 T 24900 54300 5 10 0 0 0 0 1
-slotdef=4:7
+slotdef=4:5
 T 24900 54300 5 10 0 0 0 0 1
 numslots=4
 }
@@ -954,13 +954,13 @@ slot=1
 T 24900 52700 5 10 0 0 0 0 1
 footprint=HEADER_7S.fp
 T 24900 52700 5 10 0 0 0 0 1
-slotdef=1:1
+slotdef=1:3
 T 24900 52700 5 10 0 0 0 0 1
-slotdef=2:3
+slotdef=2:1
 T 24900 52700 5 10 0 0 0 0 1
-slotdef=3:5
+slotdef=3:7
 T 24900 52700 5 10 0 0 0 0 1
-slotdef=4:7
+slotdef=4:5
 T 24900 52700 5 10 0 0 0 0 1
 numslots=4
 }
@@ -985,13 +985,13 @@ slot=4
 T 24900 46300 5 10 0 0 0 0 1
 footprint=HEADER_7S.fp
 T 24900 46300 5 10 0 0 0 0 1
-slotdef=1:1
+slotdef=1:3
 T 24900 46300 5 10 0 0 0 0 1
-slotdef=2:3
+slotdef=2:1
 T 24900 46300 5 10 0 0 0 0 1
-slotdef=3:5
+slotdef=3:7
 T 24900 46300 5 10 0 0 0 0 1
-slotdef=4:7
+slotdef=4:5
 T 24900 46300 5 10 0 0 0 0 1
 numslots=4
 }
@@ -1016,13 +1016,13 @@ slot=3
 T 24900 44700 5 10 0 0 0 0 1
 footprint=HEADER_7S.fp
 T 24900 44700 5 10 0 0 0 0 1
-slotdef=1:1
+slotdef=1:3
 T 24900 44700 5 10 0 0 0 0 1
-slotdef=2:3
+slotdef=2:1
 T 24900 44700 5 10 0 0 0 0 1
-slotdef=3:5
+slotdef=3:7
 T 24900 44700 5 10 0 0 0 0 1
-slotdef=4:7
+slotdef=4:5
 T 24900 44700 5 10 0 0 0 0 1
 numslots=4
 }
